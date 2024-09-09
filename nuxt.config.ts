@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         "@nuxtjs/i18n",
         "@nuxtjs/color-mode",
         "nuxt-aos",
-        "@nuxtjs/mdc"
+        "@nuxtjs/mdc",
     ],
     shadcn: {
         /**
@@ -25,6 +25,11 @@ export default defineNuxtConfig({
     },
     future: {
         compatibilityVersion: 4,
+    },
+    mdc: {
+        headings: {
+            anchorLinks: false,
+        },
     },
     i18n: {
         vueI18n: "./i18n.config.ts",
