@@ -22,7 +22,6 @@ const server = useState("server", () => true);
 <style lang="scss" scoped>
 .fname {
     user-select: none;
-    font-family: Advent Pro, sans-serif;
     font-size: 2rem;
 }
 </style>

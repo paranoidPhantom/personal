@@ -88,6 +88,7 @@ const { locale } = useI18n();
 
 <template>
     <div class="__history flex flex-col gap-4 my-4">
+        <hr />
         <ClientOnly>
             <Card
                 v-for="(item, index) in history"

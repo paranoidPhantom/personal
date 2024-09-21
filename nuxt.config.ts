@@ -11,6 +11,7 @@ export default defineNuxtConfig({
         "@nuxtjs/color-mode",
         "nuxt-aos",
         "@nuxtjs/mdc",
+        "@nuxtjs/seo",
     ],
     shadcn: {
         /**
@@ -23,9 +24,14 @@ export default defineNuxtConfig({
          */
         componentDir: "./app/components/ui",
     },
+    site: {
+        url: "https://andreihudalla.ru",
+        name: "Andrei Hudalla",
+    },
     future: {
         compatibilityVersion: 4,
     },
+    css: ["@/assets/scss/global.scss"],
     mdc: {
         headings: {
             anchorLinks: false,
