@@ -19,6 +19,7 @@ export default defineI18nConfig(() => ({
             telegram: "Telegram",
             vk: "VK",
             github: "GitHub",
+            skills: "Skills",
         },
         ru: {
             light: "Светлая",
@@ -37,6 +38,7 @@ export default defineI18nConfig(() => ({
             telegram: "Телега",
             vk: "ВК",
             github: "Гитхаб",
+            skills: "Навыки",
         },
     },
 }));

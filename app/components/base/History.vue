@@ -40,6 +40,9 @@ Later, we were asked to add extra features such as filters, color themes, and in
 
 At the time, I wasn't familiar with any frontend frameworks, so I used vanilla JavaScript. In retrospect, this likely contributed to the app's high performance.
 
+It was basically my first real project: I had no clue about what NodeJS was, and I had no idea how a web server worked.
+I had to learn everything from scratch, but my hope to pass the round again and again led to success.
+
 > Below is a demonstration of the flexibility of the theme system.
 
 ![Demo](/_images/vk-cup-22/demo.png)
@@ -71,6 +74,9 @@ You can view my full implementation on [GitHub](https://github.com/paranoidPhant
 ## Моя реализация
 
 На тот момент я не знал никаких frontend-фреймворков, поэтому использовал чистый JavaScript. Оглядываясь назад, это, вероятно, способствовало высокой производительности приложения.
+
+Это был по сути мой первый настоящий проект: я не знал ничего о NodeJS, я не знал ничего о веб-серверах.
+Все это я изучал с нуля, при это желение пройти в следующий этап снова и снова приводило к успеху.
 
 > Ниже - пример своеобразной костомизации тем
 
