@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 const server = useState("server", () => true);
+const { toPDF } = useAppConfig();
 </script>
 
 <template>
@@ -8,8 +9,10 @@ const server = useState("server", () => true);
             <h1 data-aos="fade-right" class="fname mr-auto">
                 {{ $t("name") }}
             </h1>
-            <BaseLangSwitch data-aos="fade-left" data-aos-delay="100" />
-            <BaseColorSwitch data-aos="fade-left" data-aos-delay="200" />
+            <template v-if="!toPDF">
+                <BaseLangSwitch data-aos="fade-left" data-aos-delay="100" />
+                <BaseColorSwitch data-aos="fade-left" data-aos-delay="200" />
+            </template>
             <template #fallback>
                 <Skeleton class="w-[220px] h-8 rounded-full my-2 mr-auto" />
                 <Skeleton class="w-[50px] h-8 rounded-full my-2" />

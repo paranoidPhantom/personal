@@ -44,6 +44,9 @@
         img {
             @apply rounded-xl;
         }
+        video {
+            @apply rounded-xl;
+        }
         blockquote {
             @apply rounded-l-md border-l-4 border-gray-400 pl-4 opacity-70;
         }

@@ -24,14 +24,17 @@ useHead({
         },
     ],
 });
+
+const { toPDF } = useAppConfig();
 </script>
 
 <template>
     <div class="__root">
         <BaseHeader />
 
+        <BaseDetails v-if="toPDF" />
         <Tabs default-value="history" class="my-4">
-            <TabsList>
+            <TabsList v-if="!toPDF">
                 <TabsTrigger value="history"> {{ $t("history") }} </TabsTrigger>
                 <TabsTrigger value="details"> {{ $t("details") }} </TabsTrigger>
             </TabsList>

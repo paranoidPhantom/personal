@@ -25,7 +25,7 @@ const skills = [
         },
         description: {
             en: "Decided on it as my first frontend framework. Have been using it for over a year. Understand complex reactivity and use the Composition API.",
-            ru: "Выбрал его в качестве своего первого фронтенд-фреймворка. Пользуюсь им уже более года. Хорошо разбираюсь в реактивности и использую 'Composition API'.",
+            ru: "Выбрал его в качестве своего первого фронтенд-фреймворка. Пользуюсь уже более года. Хорошо разбираюсь в реактивности и использую 'Composition API'.",
         },
     },
     {
@@ -42,56 +42,59 @@ const skills = [
         },
     },
 ];
+const { toPDF } = useAppConfig();
 </script>
 
 <template>
     <div class="__history flex flex-col gap-4 my-4">
-        <hr />
-        <h3 class="text-2xl">{{ $t("contact") }}</h3>
-        <div class="flex items-center gap-2">
-            <NuxtLink to="https://t.me/paranoidPhantom">
-                <TooltipProvider>
-                    <Tooltip>
-                        <TooltipTrigger>
-                            <Button variant="outline">
-                                <Icon name="mingcute:telegram-fill" />
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            <p>{{ $t("telegram") }}</p>
-                        </TooltipContent>
-                    </Tooltip>
-                </TooltipProvider>
-            </NuxtLink>
-            <NuxtLink to="https://vk.com/paranoidphantom">
-                <TooltipProvider>
-                    <Tooltip>
-                        <TooltipTrigger>
-                            <Button variant="outline">
-                                <Icon name="akar-icons:vk-fill" />
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            <p>{{ $t("vk") }}</p>
-                        </TooltipContent>
-                    </Tooltip>
-                </TooltipProvider>
-            </NuxtLink>
-            <NuxtLink to="https://github.com/paranoidPhantom">
-                <TooltipProvider>
-                    <Tooltip>
-                        <TooltipTrigger>
-                            <Button variant="outline">
-                                <Icon name="mdi:github" />
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            <p>{{ $t("github") }}</p>
-                        </TooltipContent>
-                    </Tooltip>
-                </TooltipProvider>
-            </NuxtLink>
-        </div>
+        <template v-if="!toPDF">
+            <hr />
+            <h3 class="text-2xl">{{ $t("contact") }}</h3>
+            <div class="flex items-center gap-2">
+                <NuxtLink to="https://t.me/paranoidPhantom">
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <Button variant="outline">
+                                    <Icon name="mingcute:telegram-fill" />
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>{{ $t("telegram") }}</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                </NuxtLink>
+                <NuxtLink to="https://vk.com/paranoidphantom">
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <Button variant="outline">
+                                    <Icon name="akar-icons:vk-fill" />
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>{{ $t("vk") }}</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                </NuxtLink>
+                <NuxtLink to="https://github.com/paranoidPhantom">
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <Button variant="outline">
+                                    <Icon name="mdi:github" />
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>{{ $t("github") }}</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                </NuxtLink>
+            </div>
+        </template>
         <hr />
         <h3 class="text-2xl">{{ $t("languages") }}</h3>
         <div class="flex gap-2">
