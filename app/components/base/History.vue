@@ -19,7 +19,7 @@ const history: Array<{
         en: {
             title: "Silver medalist @ PROD 2023'24",
             description: "Track - Frontend",
-            article: ` ## The stages
+            article: `## The stages
 
 ### Stage 1 - [General CS quiz](https://vk.com/wall-223720604_61)
 
@@ -36,7 +36,7 @@ I picked frontend. The task can be viewed [here](https://github.com/Central-Univ
 
 In short, we were tasked to build a resume builder in pure JS/CSS following strict design guidelines and prewritten playwright tests.
 
-I got a 97.5/100 score with a 71/100 passing score *making me top 5* in this stage of the competition.
+I got a 98.5/100 score with a 71/100 passing score *making me top 6* in this stage of the competition.
 
 ### Stage 3.1 - Individual project
 
@@ -58,7 +58,6 @@ My team picked a case about optimizing feedback collection for businesses.
 
 We developed a prototype: it had a dashboard for businesses to manage questions, and analyze feedback. We even integrated it with a LLM called YandexGPT that would analyze questions and feedback for those questions and suggest how to improve metrics.
 
-<video src="/_images/prod-23/demo.mp4" controls></video>
 
 We had to present the result of our 4 days of work to 30 judges from the industry.
 
@@ -80,7 +79,58 @@ The closing ceremondy was held in Moscow at the Higher School of Economics.
         ru: {
             title: "Призёр второй степени в PROD 2023'24",
             description: "Направление - Фронтенд",
-            article: ``,
+            article: `## Этапы
+
+### Этап 1 - [Общий опрос по информатике](https://vk.com/wall-223720604_61)
+
+Этот этап был общим опросом по информатике:
+- Нам было дано 2 часа на решение 30 вопросов.
+- В опросе участвовали 3879 конкурсантов.
+- Опрос проверял наши знания по основам веб-разработки и общей информатике.
+
+### Этап 2 - Задача по направлению
+
+Конкурс был разделён на фронтенд, бэкенд и мобильную разработку.
+
+Я выбрал фронтенд. Задачу можно посмотреть [здесь](https://github.com/Central-University-IT/test-frontend).
+
+Вкратце, нам нужно было создать конструктор резюме на чистом JS/CSS, соблюдая строгие дизайн-гайдлайны и предустановленные тесты Playwright.
+
+Я набрал 98.5/100 баллов при проходном балле 71/100, *заняв топ-6* на этом этапе конкурса.
+
+### Этап 3.1 - Индивидуальный проект
+
+Мне дали задачу создать трекер привычек. Задачу можно посмотреть [здесь](https://centraluniversity.notion.site/Frontend-71498a423396498ea874cd9cd7c48bd0).
+
+Вкратце, нужно было реализовать геймификацию и добавить социальные механики. Я был одним из немногих, кто подключил проект к бэкенду ([Supabase](https://supabase.com/)).
+
+Это позволило мне реализовать настоящие запросы в друзья, библиотеку популярных привычек и страницы профилей с результатами.
+
+Вы можете посмотреть итоговый результат [здесь](https://github.com/Central-University-IT-prod/public-frontend-paranoidPhantom).
+
+### Этап 3.2 - Командный хакатон
+
+![Изображение места](/_images/prod-23/location.png)
+
+Это был единственный этап конкурса, который проводился в физическом месте. Это был четырёхдневный хакатон с несколькими кейсами на выбор.
+
+Моя команда выбрала кейс по оптимизации сбора отзывов для бизнеса.
+
+Мы разработали прототип: он включал в себя дашборд для управления вопросами и анализа отзывов для бизнеса. Мы даже интегрировали его с LLM под названием YandexGPT, который анализировал вопросы и отзывы, предлагая, как можно улучшить метрики.
+
+Нам нужно было представить результат нашей четырёхдневной работы 30 судьям из индустрии.
+
+![Изображение презентации](/_images/prod-23/presentation.png)
+
+---
+
+## Результаты
+
+Нас оценивали на основе совокупности баллов за индивидуальный проект и командный хакатон.
+
+Церемония закрытия прошла в Москве в Высшей школе экономики.
+
+![Изображение церемонии](/_images/prod-23/ceremony.png)`,
             date: "4 апреля, 2024 (Возраст 16)",
             image: "/_images/prod-23/cover.png",
         },
