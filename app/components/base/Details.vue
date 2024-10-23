@@ -136,7 +136,7 @@ const { toPDF } = useAppConfig();
                 :key="skill.name"
                 class="w-[calc(50%-4px)]"
             >
-                <AlertTitle class="flex items-center">
+                <AlertTitle class="flex items-center flex-wrap">
                     <NuxtLink :to="skill.link" class="flex items-center">
                         <Icon :name="skill.icon" />
                         <Button variant="link">
