@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         "@nuxtjs/i18n",
         "@nuxtjs/color-mode",
         "nuxt-aos",
-        "@nuxtjs/mdc",
+        "@nuxt/content",
         "@nuxtjs/seo",
     ],
     shadcn: {
@@ -28,12 +28,17 @@ export default defineNuxtConfig({
         url: "https://andreihudalla.ru",
         name: "Andrei Hudalla",
     },
+    routeRules: {
+        "/": {
+            static: true,
+        },
+    },
     future: {
         compatibilityVersion: 4,
     },
     css: ["@/assets/scss/global.scss"],
-    mdc: {
-        headings: {
+    content: {
+        markdown: {
             anchorLinks: false,
         },
     },
