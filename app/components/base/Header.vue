@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-const server = useState("server", () => true);
 const { toPDF } = useAppConfig();
 </script>
 
