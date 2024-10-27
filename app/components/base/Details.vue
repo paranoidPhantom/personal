@@ -11,8 +11,8 @@ const skills = [
             ru: "Фронтенд",
         },
         description: {
-            en: "Used it for the first time in the context of Vite + Vue 3, I enabled it for good practice and incrementaly taught myself the language without following any real course on it.",
-            ru: "Впервые использовал в контексте Vite + Vue 3, включил чтобы соответствовать хорошим практикам и постепенно выучил язык самостоятельно, не следуя какому-либо полноценному курсу.",
+            en: "Incrementaly self-taught. Very good, very nice.",
+            ru: "Постепенно выучил интуитивно. Вещь крутая, использую везде.",
         },
     },
     {
@@ -24,8 +24,8 @@ const skills = [
             ru: "Фронтенд",
         },
         description: {
-            en: "Decided on it as my first frontend framework. Have been using it for over a year. Understand complex reactivity and use the Composition API.",
-            ru: "Выбрал его в качестве своего первого фронтенд-фреймворка. Пользуюсь уже более года. Хорошо разбираюсь в реактивности и использую 'Composition API'.",
+            en: "First frontend framework I learned. 0 regrets.",
+            ru: "Первый фронтенд-фреймворк, который я выучил. Ни о чём не сожалею.",
         },
     },
     {
@@ -37,8 +37,21 @@ const skills = [
             ru: "DevOps",
         },
         description: {
-            en: "Had to learn it when self-hosting Supabase for my school's website. Have written a good number of Dockerfiles, and compose files, understand the fundamentals of networks, volumes, etc.",
-            ru: "Пришлось выучить, когда самостоятельно развертывал Supabase на школьном сервере. Написал достаточно много Dockerfile’ов и compose-файлов, понимаю фундаментально как работают и взаимодействуют контейнеры.",
+            en: "Learned it. Now I can self-host anything. I love it.",
+            ru: "Выучил потому-что это база. Теперь я могу селф-хостить всё что захочу. Супер гуд.",
+        },
+    },
+    {
+        name: "Nuxt 3",
+        link: "https://nuxt.com/",
+        icon: "logos:nuxt-icon",
+        category: {
+            en: "Frontend",
+            ru: "Фронтенд",
+        },
+        description: {
+            en: "Found this to be my go-to tool for building any type of web-app.",
+            ru: "Этот фрейм - мой основной инструмент для создания любого вида веб-приложений.",
         },
     },
 ];
@@ -134,7 +147,7 @@ const { toPDF } = useAppConfig();
             <Alert
                 v-for="skill in skills"
                 :key="skill.name"
-                class="w-[calc(50%-4px)]"
+                class="sm:w-[calc(50%-4px)]"
             >
                 <AlertTitle class="flex items-center flex-wrap">
                     <NuxtLink :to="skill.link" class="flex items-center">
