@@ -29,7 +29,7 @@ const { data: contentList } = await useAsyncData(
                 :data-aos-delay="200 * index"
             >
                 <CardHeader>
-                    <img
+                    <NuxtImg
                         class="absolute top-0 left-0 w-full h-auto object-cover rounded-t-lg"
                         v-show="item.image"
                         :src="item.image"
@@ -43,7 +43,7 @@ const { data: contentList } = await useAsyncData(
                             );
                         "
                     />
-                    <img
+                    <NuxtImg
                         class="opacity-0"
                         v-show="item.image"
                         :src="item.image"

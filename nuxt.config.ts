@@ -12,6 +12,7 @@ export default defineNuxtConfig({
         "nuxt-aos",
         "@nuxt/content",
         "@nuxtjs/seo",
+        "@nuxt/image",
     ],
     shadcn: {
         /**
@@ -40,6 +41,8 @@ export default defineNuxtConfig({
     content: {
         markdown: {
             anchorLinks: false,
+            remarkPlugins: ["remark-math"],
+            rehypePlugins: ["rehype-mathjax"],
         },
     },
     i18n: {
