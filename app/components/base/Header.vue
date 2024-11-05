@@ -5,9 +5,7 @@ const { toPDF } = useAppConfig();
 <template>
     <Alert class="flex items-center gap-4 overflow-hidden">
         <ClientOnly>
-            <h1 data-aos="fade-right" class="fname mr-auto">
-                {{ $t("name") }}
-            </h1>
+            <img src="/favicon.svg" class="mr-auto w-12" alt="Logo" />
             <template v-if="!toPDF">
                 <BaseLangSwitch data-aos="fade-left" data-aos-delay="100" />
                 <BaseColorSwitch data-aos="fade-left" data-aos-delay="200" />
@@ -21,9 +19,4 @@ const { toPDF } = useAppConfig();
     </Alert>
 </template>
 
-<style lang="scss" scoped>
-.fname {
-    user-select: none;
-    font-size: 2rem;
-}
-</style>
+<style lang="scss" scoped></style>
