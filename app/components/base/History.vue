@@ -34,6 +34,7 @@ const { data: contentList } = await useAsyncData(
                         v-show="item.image"
                         :src="item.image"
                         alt="Cover graphic"
+                        width="400px"
                         style="
                             mask-image: linear-gradient(
                                 to bottom,
