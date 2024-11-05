@@ -106,6 +106,20 @@ const { toPDF } = useAppConfig();
                         </Tooltip>
                     </TooltipProvider>
                 </NuxtLink>
+                <NuxtLink to="mailto:andrei@hudalla.dev">
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger>
+                                <Button variant="outline">
+                                    <Icon name="mdi:email-fast" />
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>{{ $t("mail") }}</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                </NuxtLink>
             </div>
         </template>
         <hr />

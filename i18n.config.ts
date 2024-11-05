@@ -20,6 +20,7 @@ export default defineI18nConfig(() => ({
             vk: "VK",
             github: "GitHub",
             skills: "Skills",
+            mail: "Email",
         },
         ru: {
             light: "Светлая",
@@ -39,6 +40,7 @@ export default defineI18nConfig(() => ({
             vk: "ВК",
             github: "Гитхаб",
             skills: "Навыки",
+            mail: "Почта",
         },
     },
 }));
