@@ -11,7 +11,7 @@ const { toPDF } = useAppConfig();
                 <BaseColorSwitch data-aos="fade-left" data-aos-delay="200" />
             </template>
             <template #fallback>
-                <Skeleton class="w-[220px] h-8 rounded-full my-2 mr-auto" />
+                <Skeleton class="w-[50px] h-8 rounded-full my-2 mr-auto" />
                 <Skeleton class="w-[50px] h-8 rounded-full my-2" />
                 <Skeleton class="w-[50px] h-8 rounded-full my-2" />
             </template>
