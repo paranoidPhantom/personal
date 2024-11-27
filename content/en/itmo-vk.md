@@ -62,4 +62,4 @@ Our presentation is a great demonstration of what we did:
 
 ---
 
-[Official website of the hackathon](https://picthack.itmo.ru/)
+[Official website of the hackathon](https://vkma-hack.ru)

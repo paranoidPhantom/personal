@@ -62,4 +62,4 @@ image: "/_images/itmo-vk/cover.png"
 
 ---
 
-[Официальный сайт хакатона](https://picthack.itmo.ru/)
+[Официальный сайт хакатона](https://vkma-hack.ru)
