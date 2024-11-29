@@ -26,7 +26,8 @@ const { data: contentList } = await useAsyncData(
                 v-for="(item, index) in contentList ?? []"
                 :key="`${locale}-${index}`"
                 data-aos="fade-up"
-                :data-aos-delay="200 * index"
+                :data-aos-delay="index * 100"
+				
             >
                 <CardHeader>
                     <NuxtImg

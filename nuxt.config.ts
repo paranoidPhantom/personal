@@ -36,7 +36,13 @@ export default defineNuxtConfig({
         "/project/11.27": {
             redirect: {
                 to: "https://www.figma.com/deck/TtosMMutyV6GFrmSrMrHVf/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%BB%D0%BD%D1%8B?node-id=0-1&t=kBs1WQw9biGP0GW1-1",
-                statusCode: 301,
+                statusCode: 308,
+            },
+        },
+        "/project/11.29": {
+            redirect: {
+                to: "https://www.figma.com/deck/UlE13Y1lMTPIKov2tKWaEo/China?node-id=0-1&t=8t7un3WEO3m8Wx64-1",
+                statusCode: 308,
             },
         },
     },
