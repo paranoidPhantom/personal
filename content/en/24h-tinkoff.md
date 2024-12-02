@@ -26,3 +26,5 @@ You can get a good feeling for our work using the presentation below.
 ## Results
 
 After a full night of no sleep, we were able to achieve a product, which put us in 2nd place.
+
+![Certificate](/_images/24h-tinkoff/cert.png)
