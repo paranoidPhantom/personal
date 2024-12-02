@@ -23,7 +23,7 @@ Where 2024 is repeated 2024 times.
 
 ### The hackathon
 
-<iframe class="w-full" style="aspect-ratio: 16 / 9; border-radius: var(--radius)" src="https://vk.com/video_ext.php?oid=-76139618&id=456240444&hd=2&autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe class="w-full" style="aspect-ratio: 16 / 9; border-radius: var(--radius)" src="https://vk.com/video_ext.php?oid=-76139618&id=456240444&hd=2" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 The problem was to create a comprehensive platform for students to search for internships. The obvious way of doing this, was to aggregate them from multiple sites i.e. scrape them in order to populate our resource.
 

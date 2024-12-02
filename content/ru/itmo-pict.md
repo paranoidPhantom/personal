@@ -23,7 +23,7 @@ image: "/_images/itmo-pict/cover.png"
 
 ### Хакатон
 
-<iframe class="w-full" style="aspect-ratio: 16 / 9; border-radius: var(--radius)" src="https://vk.com/video_ext.php?oid=-76139618&id=456240444&hd=2&autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe class="w-full" style="aspect-ratio: 16 / 9; border-radius: var(--radius)" src="https://vk.com/video_ext.php?oid=-76139618&id=456240444&hd=2" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 Задачей было создать комплексную платформу для студентов, чтобы они могли искать стажировки. Очевидным решением было собрать вакансии с различных сайтов, то есть web-скрейпить, наполняя наш ресурс.
 

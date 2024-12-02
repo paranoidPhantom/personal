@@ -39,12 +39,6 @@ export default defineNuxtConfig({
                 statusCode: 308,
             },
         },
-        "/project/11.29": {
-            redirect: {
-                to: "https://www.figma.com/deck/UlE13Y1lMTPIKov2tKWaEo/China?node-id=0-1&t=8t7un3WEO3m8Wx64-1",
-                statusCode: 308,
-            },
-        },
     },
     future: {
         compatibilityVersion: 4,
