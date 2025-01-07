@@ -7,12 +7,13 @@ const {
 } = useRoute();
 const router = useRouter();
 
-const { data: thisArticle } = await useAsyncData(
+const { data: thisArticle } = useAsyncData(
     `content-list-${locale}`,
     async () => {
         const contentQuery = await queryContent(
             `${locale.value}/${article}`
         ).findOne();
+        useContentHead(contentQuery);
         return contentQuery;
     },
     {
@@ -29,6 +30,10 @@ defineOgImage({
         description: thisArticle.value?.description,
         image: thisArticle.value?.image,
     },
+});
+
+watchEffect(() => {
+    console.warn("!!!", thisArticle.value);
 });
 </script>
 
@@ -74,13 +79,10 @@ defineOgImage({
                 class="my-4"
             />
             <ContentRenderer
-                :value="thisArticle"
                 data-aos="fade-up"
                 data-aos-delay="300"
-                data-aos-duration="1000"
-            >
-                <template #empty> </template>
-            </ContentRenderer>
+                :value="thisArticle"
+            />
         </MDFormatter>
     </div>
 </template>
