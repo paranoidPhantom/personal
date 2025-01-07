@@ -21,7 +21,12 @@ I used Nuxt 3 + Nuxt UI to make a nice interace quickly.
 
 You can get a good feeling for our work using the presentation below.
 
-<iframe	style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius)" src="/_docs/24h-tinkoff/presentation.pdf" ></iframe>
+
+::Presentation
+---
+url: "/_docs/24h-tinkoff/presentation.pdf"
+---
+::
 
 ## Results
 

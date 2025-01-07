@@ -25,7 +25,12 @@ As usual, Nuxt 3 + Nuxt UI was the stack on my end. FastAPI + PostgreSQL on the 
 To get a good feeling for the product, you can check out the presentation.
 
 
-<iframe	style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius)" src="/_docs/naimix-taro/presentation.pdf" ></iframe>
+
+::Presentation
+---
+url: "/_docs/naimix-taro/presentation.pdf"
+---
+::
 
 We got 2nd place & won 60,000 rubles.
 

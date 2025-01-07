@@ -56,7 +56,12 @@ image: "/_images/itmo-vk/cover.png"
 
 Наша презентация отлично демонстрирует то, что мы сделали:
 
-<iframe	style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius)" src="/_docs/itmo-vk/presentation.pdf" ></iframe>
+
+::Presentation
+---
+url: "/_docs/itmo-vk/presentation.pdf"
+---
+::
 
 ### Мы заняли 2 место из более чем 17 команд.
 

@@ -24,7 +24,11 @@ image: "/_images/naimix-taro/cover.png"
 
 Чтобы лучше понять наш продукт, посмотрите презентацию.
 
-<iframe	style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius)" src="/_docs/naimix-taro/presentation.pdf" ></iframe>
+::Presentation
+---
+url: "/_docs/naimix-taro/presentation.pdf"
+---
+::
 
 Мы заняли 2-е место и выиграли 60,000 рублей.
 

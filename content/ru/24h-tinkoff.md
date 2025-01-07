@@ -21,7 +21,12 @@ image: "/_images/24h-tinkoff/cover.png"
 
 Ознакомиться с результатами нашей работы можно в презентации ниже.
 
-<iframe	style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius)" src="/_docs/24h-tinkoff/presentation.pdf" ></iframe>
+
+::Presentation
+---
+url: "/_docs/24h-tinkoff/presentation.pdf"
+---
+::
 
 ## Результаты
 

@@ -56,7 +56,12 @@ You get the idea. Little by little everything got implemented in the most minima
 
 Our presentation is a great demonstration of what we did:
 
-<iframe	style="width: 100%; aspect-ratio: 16/9; border-radius: var(--radius)" src="/_docs/itmo-vk/presentation.pdf" ></iframe>
+
+::Presentation
+---
+url: "/_docs/itmo-vk/presentation.pdf"
+---
+::
 
 ### We won 2nd place out of 17+ teams.
 
