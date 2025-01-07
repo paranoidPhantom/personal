@@ -48,6 +48,7 @@ defineOgImage({
 <template>
     <div class="__article pt-8 mb-32" v-if="thisArticle">
         <NuxtImg
+            v-if="thisArticle.image"
             class="w-full h-auto object-cover rounded-t-2xl mb-4"
             :src="thisArticle.image"
             alt="Cover graphic"
