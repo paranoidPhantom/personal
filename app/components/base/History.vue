@@ -16,10 +16,17 @@ const { data: contentList } = await useAsyncData(
         watch: [locale],
     }
 );
+
+const router = useRouter();
 </script>
 
 <template>
-    <div class="__history flex flex-col gap-4 my-4">
+    <div
+        class="__history flex flex-col gap-4 my-4 transition-opacity duration-200"
+        :style="{
+            opacity: router.currentRoute.value.path === '/' ? 1 : 0,
+        }"
+    >
         <hr />
         <ClientOnly>
             <Card
@@ -27,7 +34,6 @@ const { data: contentList } = await useAsyncData(
                 :key="`${locale}-${index}`"
                 data-aos="fade-up"
                 :data-aos-delay="index * 100"
-				
             >
                 <CardHeader>
                     <NuxtImg
@@ -55,10 +61,26 @@ const { data: contentList } = await useAsyncData(
                     <CardDescription>{{ item.description }}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <MDFormatter>
-                        <ContentDoc :path="item._path">
-                            <template #empty> </template>
+                    <MDFormatter class="h-96 overflow-hidden relative">
+                        <ContentDoc :path="item._path" :head="false">
                         </ContentDoc>
+                        <!-- Fade out with gradient -->
+                        <div
+                            class="bg-gradient-to-t from-background h-64 w-full absolute bottom-0 z-10 flex items-end from-20%"
+                        >
+                            <Button
+                                @click="
+                                    navigateTo(
+                                        item._path.replace(locale, 'read')
+                                    )
+                                "
+                            >
+                                <span class="mr-2">{{ $t("read_more") }}</span>
+                                <Icon
+                                    name="line-md:chevron-small-triple-right"
+                                />
+                            </Button>
+                        </div>
                     </MDFormatter>
                 </CardContent>
                 <CardFooter class="opacity-20">{{ item.date }}</CardFooter>
