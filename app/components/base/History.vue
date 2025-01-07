@@ -71,7 +71,9 @@ const router = useRouter();
                             <Button
                                 @click="
                                     navigateTo(
-                                        item._path.replace(locale, 'read')
+                                        item._path
+                                            .replace('/en/', '/read/')
+                                            .replace('/ru/', '/read/')
                                     )
                                 "
                             >
