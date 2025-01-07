@@ -21,6 +21,10 @@ export default defineI18nConfig(() => ({
             github: "GitHub",
             skills: "Skills",
             mail: "Email",
+            error: "an error occured... (idk read the message or smth)",
+            go_home: "go home",
+            read_more: "Read more",
+            download_presentation: "Download presentation",
         },
         ru: {
             light: "Светлая",
@@ -41,6 +45,10 @@ export default defineI18nConfig(() => ({
             github: "Гитхаб",
             skills: "Навыки",
             mail: "Почта",
+            error: "shto-to poshlo ne tak... (he-ze posmotri logi)",
+            go_home: "na home page",
+            read_more: "Читать далее",
+            download_presentation: "Скачать презентацию",
         },
     },
 }));
