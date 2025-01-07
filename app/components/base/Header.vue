@@ -5,7 +5,9 @@ const { toPDF } = useAppConfig();
 <template>
     <Alert class="flex items-center gap-4 overflow-hidden">
         <ClientOnly>
-            <img src="/favicon.svg" class="mr-auto w-12" alt="Logo" />
+            <NuxtLink to="/" class="mr-auto dark:invert-0 invert">
+                <img src="/favicon.svg" class="w-12" alt="Logo" />
+            </NuxtLink>
             <template v-if="!toPDF">
                 <BaseLangSwitch data-aos="fade-left" data-aos-delay="100" />
                 <BaseColorSwitch data-aos="fade-left" data-aos-delay="200" />
