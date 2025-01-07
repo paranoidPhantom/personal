@@ -7,7 +7,7 @@ const {
 } = useRoute();
 const router = useRouter();
 
-const { data } = await useAsyncData(
+const { data: thisArticle } = await useAsyncData(
     `content-list-${locale}`,
     async () => {
         const contentQuery = await queryContent(
@@ -19,19 +19,6 @@ const { data } = await useAsyncData(
         watch: [locale],
     }
 );
-
-const lastArticle = ref();
-const thisArticle = computed(() => {
-    if (router.currentRoute.value.path === path) {
-        return data.value;
-    } else {
-        return lastArticle.value;
-    }
-});
-
-watch(thisArticle, (value) => {
-    if (router.currentRoute.value.path === path) lastArticle.value = value;
-});
 
 defineOgImage({
     component: "OGImage",
