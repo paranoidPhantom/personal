@@ -6,12 +6,7 @@ onMounted(() => (server.value = false));
 const { seo } = useAppConfig();
 
 useSeoMeta({
-    description: seo.description,
-    ogDescription: seo.description,
-    ogImage: seo.image,
     twitterTitle: seo.title,
-    twitterDescription: seo.description,
-    twitterImage: seo.image,
     twitterCard: "summary",
 });
 
@@ -24,27 +19,12 @@ useHead({
         },
     ],
 });
-
-const { toPDF } = useAppConfig();
 </script>
 
 <template>
     <div class="__root">
         <BaseHeader />
-
-        <BaseDetails v-if="toPDF" />
-        <Tabs default-value="history" class="my-4">
-            <TabsList v-if="!toPDF">
-                <TabsTrigger value="history"> {{ $t("history") }} </TabsTrigger>
-                <TabsTrigger value="details"> {{ $t("details") }} </TabsTrigger>
-            </TabsList>
-            <TabsContent value="history">
-                <BaseHistory />
-            </TabsContent>
-            <TabsContent value="details">
-                <BaseDetails />
-            </TabsContent>
-        </Tabs>
+        <NuxtPage />
     </div>
 </template>
 
