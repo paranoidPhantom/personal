@@ -18,6 +18,7 @@
     "@nuxtjs/mdc": "^0.8.3",
     "@nuxtjs/seo": "^2.0.0-rc.21",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@playwright/test": "^1.49.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.438.0",
