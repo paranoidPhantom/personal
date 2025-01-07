@@ -63,6 +63,7 @@ const router = useRouter();
                 <CardContent>
                     <MDFormatter class="h-96 overflow-hidden relative">
                         <ContentDoc :path="item._path" :head="false">
+                            <template #empty></template>
                         </ContentDoc>
                         <!-- Fade out with gradient -->
                         <div
