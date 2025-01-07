@@ -5,7 +5,6 @@ const { data: contentList } = await useAsyncData(
     `content-list-${locale}`,
     async () => {
         const contentQuery = await queryContent(locale.value)
-            .without(["body"])
             .sort({
                 index: -1,
             })
@@ -62,9 +61,9 @@ const router = useRouter();
                 </CardHeader>
                 <CardContent>
                     <MDFormatter class="h-96 overflow-hidden relative">
-                        <ContentDoc :path="item._path" :head="false">
-                            <template #empty></template>
-                        </ContentDoc>
+                        <ContentRendererMarkdown
+                            :value="item.body"
+                        ></ContentRendererMarkdown>
                         <!-- Fade out with gradient -->
                         <div
                             class="bg-gradient-to-t from-background h-64 w-full absolute bottom-0 z-10 flex items-end from-20%"
