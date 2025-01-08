@@ -40,6 +40,11 @@ export default defineNuxtConfig({
             isr: 1200,
         },
     },
+    icon: {
+        serverBundle: {
+            remote: "jsdelivr",
+        },
+    },
     future: {
         compatibilityVersion: 4,
     },
