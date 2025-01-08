@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 defineOgImage({
     component: "OGImage",
-    renderer: "chromium",
     props: {
         title: "Andrei Hudalla",
     },

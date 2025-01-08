@@ -20,15 +20,11 @@ const props = defineProps<{
             class="absolute left-0 w-full top-0 h-full -z-0 opacity-20 object-cover"
             :src="image"
         />
-        <img
-            class="h-24 w-24 pl-8 object-contain drop-shadow-sm"
-            src="/favicon.svg"
-            alt=""
-        />
-        <div class="h-16 bg-white w-[1px] mx-4 opacity-50 mb-4" />
-        <div class="flex flex-col gap-2 ml-4 mb-6">
-            <h4 class="text-2xl">{{ title }}</h4>
-            <p class="opacity-70 max-w-96 truncate">{{ description }}</p>
+        <img class="w-52 h-40 pl-8 object-contain" src="/favicon.svg" alt="" />
+        <div class="h-32 bg-white w-[1px] mr-4 opacity-50 mb-4" />
+        <div class="flex flex-col justify-end ml-4 mb-6 gap-2">
+            <h4 class="text-2xl my-0">{{ title }}</h4>
+            <p class="opacity-70 max-w-96 truncate my-0">{{ description }}</p>
         </div>
     </div>
 </template>

@@ -20,7 +20,6 @@ const { data: thisArticle } = useAsyncData(
 
 defineOgImage({
     component: "OGImage",
-    renderer: "chromium",
     emojis: "fluent-emoji",
     props: {
         title: thisArticle.value?.title,
