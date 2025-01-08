@@ -1,7 +1,7 @@
 ---
 title: "2 place @ Naimix code"
 description: "An analytical tool for recruiters, for the 'Naimix' platform."
-index: 5
+index: 6
 date: "November 17, 2024"
 image: "/_images/naimix-taro/cover.png"
 ---

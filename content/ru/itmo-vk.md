@@ -1,7 +1,7 @@
 ---
 title: "2 место @ VK Mini Apps × ITMO Hack"
 description: "Интерактивный мини-апп для онбординга первокурсников и новых сотрудников в культуру 'be ITMO'"
-index: 3
+index: 4
 date: "13 октября 2024"
 image: "/_images/itmo-vk/cover.png"
 ---

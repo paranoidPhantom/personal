@@ -1,7 +1,7 @@
 ---
 title: "2 место @ 24 часа в Тинькофф"
 description: "Кейс - прогнозирование выплачиваемого кешбэка"
-index: 4
+index: 5
 date: "27 октября 2024"
 image: "/_images/24h-tinkoff/cover.png"
 ---

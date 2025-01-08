@@ -1,7 +1,7 @@
 ---
 title: "2 place @ 24 hours in Tinkoff"
 description: "Case - Partner cashback predictions"
-index: 4
+index: 5
 date: "October 27, 2024"
 image: "/_images/24h-tinkoff/cover.png"
 ---

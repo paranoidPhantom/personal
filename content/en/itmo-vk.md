@@ -1,7 +1,7 @@
 ---
 title: "2 place @ VK Mini Apps × ITMO Hack"
 description: "Interactive quest app for onboarding freshmen and new employees into 'be ITMO' culture"
-index: 3
+index: 4
 date: "October 13, 2024"
 image: "/_images/itmo-vk/cover.png"
 ---
