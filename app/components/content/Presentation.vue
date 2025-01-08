@@ -22,7 +22,7 @@ onMounted(() => {
             "
             :src="url"
         />
-        <a :href="url" download="Presentation.pdf" v-else>
+        <a :href="url" download="presentation.pdf" v-else>
             <Button>{{ $t("download_presentation") }}</Button>
         </a>
     </div>
