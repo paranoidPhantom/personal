@@ -77,6 +77,7 @@ watch(localePickedByUser, (newLocale) => {
             <ContentRenderer
                 data-aos="fade-up"
                 data-aos-delay="300"
+                data-aos-duration="1000"
                 :value="thisArticle"
             />
         </MDFormatter>
