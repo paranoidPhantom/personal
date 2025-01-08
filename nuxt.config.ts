@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         },
     },
     routeRules: {
-        "/**": {
+        "/read/**": {
             isr: 1200,
         },
     },

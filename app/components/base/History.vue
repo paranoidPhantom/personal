@@ -66,15 +66,7 @@ const router = useRouter();
                         <div
                             class="bg-gradient-to-t from-background h-64 w-full absolute bottom-0 z-10 flex items-end from-20%"
                         >
-                            <Button
-                                @click="
-                                    navigateTo(
-                                        item._path
-                                            .replace('/en/', '/read/')
-                                            .replace('/ru/', '/read/')
-                                    )
-                                "
-                            >
+                            <Button @click="navigateTo(`/read${item._path}`)">
                                 <span class="mr-2">{{ $t("read_more") }}</span>
                                 <Icon
                                     name="line-md:chevron-small-triple-right"

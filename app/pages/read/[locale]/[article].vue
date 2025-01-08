@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-const { locale } = useI18n();
+const { locale: localePickedByUser } = useI18n();
 
 const {
-    params: { article },
+    params: { article, locale },
     path,
 } = useRoute();
 const router = useRouter();
@@ -11,13 +11,10 @@ const { data: thisArticle } = useAsyncData(
     `content-list-${locale}`,
     async () => {
         const contentQuery = await queryContent(
-            `${locale.value}/${article}`
+            `${locale}/${article}`
         ).findOne();
         useContentHead(contentQuery);
         return contentQuery;
-    },
-    {
-        watch: [locale],
     }
 );
 
@@ -32,15 +29,15 @@ defineOgImage({
     },
 });
 
-watchEffect(() => {
-    console.warn("!!!", thisArticle.value);
+watch(localePickedByUser, (newLocale) => {
+    if (locale !== newLocale) navigateTo(`/read/${newLocale}/${article}`);
 });
 </script>
 
 <template>
-    <div class="__article pt-8 mb-32" v-if="thisArticle">
+    <div class="__article pt-8 mb-32">
         <NuxtImg
-            v-if="thisArticle.image"
+            v-if="thisArticle?.image"
             class="w-full h-auto object-cover rounded-t-2xl mb-4"
             :src="thisArticle.image"
             alt="Cover graphic"
@@ -56,7 +53,7 @@ watchEffect(() => {
                 );
             "
         />
-        <MDFormatter>
+        <MDFormatter v-if="thisArticle">
             <h2
                 class="scroll-m-20 text-2xl font-semibold tracking-tight"
                 data-aos="fade-up"
