@@ -19,7 +19,7 @@ Find the last digit of the number
 Where 2024 is repeated 2024 times.
 
 
-#### Thanksfully most of my proceeded to the next round.
+#### Thankfully most of team my proceeded to the next round.
 
 ### The hackathon
 
