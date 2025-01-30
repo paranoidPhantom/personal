@@ -25,10 +25,16 @@ useSeoMeta({
         <Tabs default-value="history" class="my-4">
             <TabsList>
                 <TabsTrigger value="history"> {{ $t("history") }} </TabsTrigger>
+                <TabsTrigger value="projects">
+                    {{ $t("projects") }}
+                </TabsTrigger>
                 <TabsTrigger value="details"> {{ $t("details") }} </TabsTrigger>
             </TabsList>
             <TabsContent value="history">
                 <BaseHistory />
+            </TabsContent>
+            <TabsContent value="projects">
+                <BaseProjects />
             </TabsContent>
             <TabsContent value="details">
                 <BaseDetails />
