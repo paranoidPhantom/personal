@@ -30,7 +30,7 @@ const content = [
 </script>
 
 <template>
-    <div class="__projects grid grid-cols-2 gap-4 my-4">
+    <div class="__projects grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
         <NuxtLink
             v-for="card in content"
             :key="card.title.en"
