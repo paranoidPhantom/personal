@@ -11,22 +11,22 @@
             @apply mb-4;
         }
         h1 {
-            @apply text-2xl font-bold opacity-100 sm:text-3xl;
+            @apply text-primary text-2xl font-bold opacity-100 sm:text-3xl;
         }
         h2 {
-            @apply text-xl font-semibold opacity-100 sm:text-2xl;
+            @apply text-primary text-xl font-semibold opacity-100 sm:text-2xl;
         }
         h3 {
-            @apply text-lg font-semibold opacity-90 sm:text-xl;
+            @apply text-primary text-lg font-semibold opacity-90 sm:text-xl;
         }
         h4 {
-            @apply text-base font-normal opacity-90 sm:text-lg;
+            @apply text-primary text-base font-normal opacity-90 sm:text-lg;
         }
         h5 {
-            @apply text-sm font-normal opacity-80 sm:text-base;
+            @apply text-primary text-sm font-normal opacity-80 sm:text-base;
         }
         h6 {
-            @apply text-sm font-normal opacity-80;
+            @apply text-primary text-sm font-normal opacity-80;
         }
         p {
             @apply opacity-80;
@@ -65,10 +65,7 @@
             }
         }
         a {
-            @apply relative text-sky-500 dark:text-sky-400;
-            &:hover {
-                @apply text-sky-600 dark:text-sky-500;
-            }
+            @apply relative;
         }
         hr {
             @apply dark:opacity-20;
