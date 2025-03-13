@@ -30,6 +30,10 @@ defineOgImage({
     },
 });
 
+useHead({
+    lang: locale,
+});
+
 watch(localePickedByUser, (newLocale) => {
     if (locale !== newLocale) navigateTo(`/read/${newLocale}/${article}`);
 });
