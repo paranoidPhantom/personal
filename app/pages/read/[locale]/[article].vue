@@ -3,20 +3,22 @@ const { locale: localePickedByUser } = useI18n();
 
 const {
     params: { article, locale },
-    path,
 } = useRoute();
-const router = useRouter();
 
-const { data: thisArticle } = useAsyncData(
+const { data: thisArticle } = await useAsyncData(
     `content-list-${locale}`,
     async () => {
-        const contentQuery = await queryContent(
-            `${locale}/${article}`
-        ).findOne();
-        useContentHead(contentQuery);
+        const contentQuery = await queryCollection(`content`)
+            .path(`/${locale}/${article}`)
+            .first();
         return contentQuery;
     }
 );
+
+useSeoMeta({
+    title: thisArticle.value?.title,
+    description: thisArticle.value?.description,
+});
 
 defineOgImage({
     component: "OGImage",

@@ -4,11 +4,10 @@ const { locale } = useI18n();
 const { data: contentList } = await useAsyncData(
     `content-list-${locale}`,
     async () => {
-        const contentQuery = await queryContent(locale.value)
-            .sort({
-                index: -1,
-            })
-            .find();
+        const contentQuery = await queryCollection("content")
+            .order("index", "DESC")
+            .where("path", "LIKE", `/${locale.value}/%`)
+            .all();
         return contentQuery;
     },
     {
@@ -61,12 +60,11 @@ const router = useRouter();
                 </CardHeader>
                 <CardContent>
                     <MDFormatter class="h-96 overflow-hidden relative">
-                        <ContentRendererMarkdown :value="item.body" />
-                        <!-- Fade out with gradient -->
+                        <ContentRenderer :value="item.body" />
                         <div
                             class="bg-gradient-to-t from-background h-64 w-full absolute bottom-0 z-10 flex items-end from-20%"
                         >
-                            <Button @click="navigateTo(`/read${item._path}`)">
+                            <Button @click="navigateTo(`/read${item.path}`)">
                                 <span class="mr-2">{{ $t("read_more") }}</span>
                                 <Icon
                                     name="line-md:chevron-small-triple-right"
