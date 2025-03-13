@@ -13,9 +13,10 @@ export default defineNuxtConfig({
         "@nuxtjs/i18n",
         "@nuxtjs/color-mode",
         "nuxt-aos",
-        "@nuxt/content",
         "@nuxtjs/seo",
+        "@nuxt/content",
         "@nuxt/image",
+        "@nuxthq/studio",
     ],
     shadcn: {
         /**
@@ -61,7 +62,6 @@ export default defineNuxtConfig({
         },
     },
     i18n: {
-        vueI18n: "./i18n.config.ts",
         strategy: "no_prefix",
         defaultLocale: "en",
         locales: ["en", "ru"],
