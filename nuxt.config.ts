@@ -54,13 +54,7 @@ export default defineNuxtConfig({
         compatibilityVersion: 4,
     },
     css: ["@/assets/scss/global.scss"],
-    content: {
-        markdown: {
-            anchorLinks: false,
-            remarkPlugins: ["remark-math"],
-            rehypePlugins: ["rehype-mathjax"],
-        },
-    },
+    content: {},
     i18n: {
         strategy: "no_prefix",
         defaultLocale: "en",
