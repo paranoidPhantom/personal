@@ -16,7 +16,7 @@ export default defineNuxtConfig({
         "@nuxtjs/seo",
         "@nuxt/content",
         "@nuxt/image",
-        "@nuxthq/studio",
+        // "@nuxthq/studio",
     ],
     shadcn: {
         /**

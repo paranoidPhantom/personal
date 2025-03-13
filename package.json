@@ -10,6 +10,14 @@
 		"postinstall": "nuxt prepare"
 	},
 	"dependencies": {
+		"@iconify-json/akar-icons": "^1.2.1",
+		"@iconify-json/flagpack": "^1.2.1",
+		"@iconify-json/line-md": "^1.2.0",
+		"@iconify-json/logos": "^1.2.3",
+		"@iconify-json/mdi": "^1.2.1",
+		"@iconify-json/mingcute": "^1.2.1",
+		"@iconify/vue": "^4.1.2",
+		"@nuxt/content": "^3.3.0",
 		"@nuxt/fonts": "^0.7.2",
 		"@nuxt/icon": "^1.5.1",
 		"@nuxt/image": "^1.8.1",
@@ -26,21 +34,13 @@
 		"nuxt": "^3.16.0",
 		"nuxt-aos": "^1.2.5",
 		"radix-vue": "^1.9.5",
-		"shadcn-nuxt": "^0.10.4",
-		"tailwind-merge": "^2.5.2",
-		"tailwindcss-animate": "^1.0.7",
-		"vue": "latest",
-		"@iconify-json/akar-icons": "^1.2.1",
-		"@iconify-json/flagpack": "^1.2.1",
-		"@iconify-json/line-md": "^1.2.0",
-		"@iconify-json/logos": "^1.2.3",
-		"@iconify-json/mdi": "^1.2.1",
-		"@iconify-json/mingcute": "^1.2.1",
-		"@iconify/vue": "^4.1.2",
-		"@nuxt/content": "^3.3.0",
 		"rehype-mathjax": "^6.0.0",
 		"remark-math": "^6.0.0",
 		"sass": "^1.79.3",
-		"typescript": "^5.5.4"
+		"shadcn-nuxt": "^0.10.4",
+		"tailwind-merge": "^2.5.2",
+		"tailwindcss-animate": "^1.0.7",
+		"typescript": "^5.5.4",
+		"vue": "latest"
 	}
 }
