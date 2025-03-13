@@ -18,6 +18,9 @@ export default defineNuxtConfig({
         "@nuxt/image",
         // "@nuxthq/studio",
     ],
+    build: {
+        transpile: ["shiki"],
+    },
     shadcn: {
         /**
          * Prefix for all the imported component
