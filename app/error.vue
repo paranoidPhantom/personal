@@ -24,7 +24,11 @@ const props = defineProps({
             {{ $t("error") }}
         </h2>
         <pre>{{ error }}</pre>
-        <Button class="w-fit" @click="navigateTo('/')" variant="outline">
+        <Button
+            class="w-fit"
+            @click="clearError({ redirect: '/' })"
+            variant="outline"
+        >
             {{ $t("go_home") }}
         </Button>
     </div>
