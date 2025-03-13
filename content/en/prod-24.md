@@ -3,7 +3,7 @@ title: "Silver medalist @ PROD 2023'24"
 description: "Track - Frontend"
 index: 1
 date: "April 4, 2024"
-image: "/_images/prod-23/cover.png"
+image: "/_images/prod-24/cover.png"
 ---
 
 ## The stages
@@ -37,7 +37,7 @@ You can check out the final result [here](https://github.com/Central-University-
 
 ### Stage 3.2 - Team hackathon
 
-![Location image](/_images/prod-23/location.png)
+![Location image](/_images/prod-24/location.png)
 
 This was the only part of the competition that was hosted at a physical location. It was a 4 day hackathon, with multiple cases that could be picked.
 
@@ -48,7 +48,7 @@ We developed a prototype: it had a dashboard for businesses to manage questions,
 
 We had to present the result of our 4 days of work to 30 judges from the industry.
 
-![Presentation image](/_images/prod-23/presentation.png)
+![Presentation image](/_images/prod-24/presentation.png)
 
 ---
 
@@ -56,6 +56,6 @@ We had to present the result of our 4 days of work to 30 judges from the industr
 
 We were judged by a cobination of scores for the individual project, and team hackathon.
 
-The closing ceremondy was held in Moscow at the Higher School of Economics.
+The closing ceremondy was held at the Culture Center of HSE.
 
-![Ceremony image](/_images/prod-23/ceremony.png)
+![Ceremony image](/_images/prod-24/ceremony.png)
