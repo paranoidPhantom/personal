@@ -1,5 +1,5 @@
 ---
-title: "Siler medalist @ PROD 2024'25"
+title: "Bronze medalist @ PROD 2024'25"
 description: "Track - Frontend"
 index: 7
 date: "March 5, 2025"
