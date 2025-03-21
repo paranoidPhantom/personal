@@ -1,6 +1,6 @@
 export default defineI18nConfig(() => ({
     legacy: false,
-    locale: "en",
+    locale: "en" as const,
     messages: {
         en: {
             light: "Light",
@@ -35,7 +35,7 @@ export default defineI18nConfig(() => ({
             changelang: "Сменить язык",
             name: "Андрей Худалла",
             history: "Опыт",
-            projects: "Проекты 'для души'",
+            projects: "Всякая хрень",
             details: "Обо мне",
             contact: "Связаться",
             languages: "Языки",
@@ -49,7 +49,7 @@ export default defineI18nConfig(() => ({
             mail: "Почта",
             error: "an error occured... (idk read the message or smth)",
             go_home: "go home",
-            read_more: "Читать далее",
+            read_more: "Далее",
             download_presentation: "Скачать презентацию",
         },
     },
