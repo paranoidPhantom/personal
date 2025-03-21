@@ -11,8 +11,8 @@ const skills = [
             ru: "Фронтенд",
         },
         description: {
-            en: "Incrementaly self-taught. Very good, very nice.",
-            ru: "Постепенно выучил интуитивно. Вещь крутая, использую везде.",
+            en: "cuz like not js",
+            ru: "ну не js же",
         },
     },
     {
@@ -24,8 +24,8 @@ const skills = [
             ru: "Фронтенд",
         },
         description: {
-            en: "First frontend framework I learned. 0 regrets.",
-            ru: "Первый фронтенд-фреймворк, который я выучил. Ни о чём не сожалею.",
+            en: "best frontend framework, except like maybe solid",
+            ru: "лучший фрейм кроме мб solid",
         },
     },
     {
@@ -37,8 +37,8 @@ const skills = [
             ru: "DevOps",
         },
         description: {
-            en: "Learned it. Now I can self-host anything. I love it.",
-            ru: "Выучил потому-что это база. Теперь я могу селф-хостить всё что захочу. Супер гуд.",
+            en: "can't live without containers",
+            ru: "база. без конейнеризации теперь даже из дома не выхожу",
         },
     },
     {
@@ -50,8 +50,8 @@ const skills = [
             ru: "Фронтенд",
         },
         description: {
-            en: "Found this to be my go-to tool for building any type of web-app.",
-            ru: "Этот фрейм - мой основной инструмент для создания любого вида веб-приложений.",
+            en: "vue with ssr and auto-imports is all i need",
+            ru: "я дурею с этой прикормки",
         },
     },
 ];
