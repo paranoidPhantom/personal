@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+import InteractiveHoverButton from "../ui/InteractiveHoverButton.vue";
+import RadientText from "../ui/RadientText.vue";
+
 const { locale } = useI18n();
 
 const { data: contentList } = await useAsyncData(
@@ -55,8 +58,16 @@ const router = useRouter();
                         :src="item.image"
                         alt="Cover graphic"
                     />
-                    <CardTitle>{{ item.title }}</CardTitle>
-                    <CardDescription>{{ item.description }}</CardDescription>
+                    <CardTitle>
+                        <RadientText class="inline-flex max-w-full py-2">
+                            <span>
+                                {{ item.title }}
+                            </span>
+                        </RadientText>
+                    </CardTitle>
+                    <CardDescription class="opacity-50">{{
+                        item.description
+                    }}</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <MDFormatter class="h-96 overflow-hidden relative">
@@ -64,12 +75,10 @@ const router = useRouter();
                         <div
                             class="bg-gradient-to-t from-background h-64 w-full absolute bottom-0 z-10 flex items-end from-20%"
                         >
-                            <Button @click="navigateTo(`/read${item.path}`)">
-                                <span class="mr-2">{{ $t("read_more") }}</span>
-                                <Icon
-                                    name="line-md:chevron-small-triple-right"
-                                />
-                            </Button>
+                            <InteractiveHoverButton
+                                :text="$t('read_more')"
+                                @click="navigateTo(`/read${item.path}`)"
+                            />
                         </div>
                     </MDFormatter>
                 </CardContent>
