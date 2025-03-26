@@ -14,7 +14,7 @@ Since I am not a React guy this was a chance to look into it more vs. the tradit
 
 > Spoiler: I didn't enjoy it.
 
-The app was meant to introduce 'be ITMO' culture. This meant we had to combine two designs systems.
+The app was meant to introduce 'be ITMO' culture. This meant we had to combine two design systems.
 
 This was the designer's problem though, so you can read more in [his chain of posts](https://t.me/zloon41/60).
 
@@ -36,19 +36,19 @@ On the last day, I asked for a shorter shift and got a lot done in the morning -
 
 The backend was almost done the morning of that day, and completely done by the end of my shift.
 
-And so, after writing for code for 7 hours, and then washing dishes for 6, I grabbed a protein bar, some water and some pesto chicken, and jumped back into VS Code.
+And so, after writing code for 7 hours, and then washing dishes for 6, I grabbed a protein bar, some water and some pesto chicken, and jumped back into VS Code.
 
-- 12:45 - I was able to fetch tasks and store items from the API and display them
+-   12:45 - I was able to fetch tasks and store items from the API and display them
 
 <img src="/_images/itmo-vk/1.jpg" alt="demo" width="300"/>
 
 You get the idea. Little by little everything got implemented in the most minimal way possible.
 
-- 6:04 - We were finishing the details like user profiles
+-   6:04 - We were finishing the details like user profiles
 
 <img src="/_images/itmo-vk/2.jpg" alt="demo" width="300"/>
 
-...and quizes about 'be ITMO' culture:
+...and quizzes about 'be ITMO' culture:
 
 <img src="/_images/itmo-vk/3.jpg" alt="demo" width="300"/>
 
@@ -56,11 +56,10 @@ You get the idea. Little by little everything got implemented in the most minima
 
 Our presentation is a great demonstration of what we did:
 
+## ::Presentation
 
-::Presentation
----
-url: "/_docs/itmo-vk/presentation.pdf"
----
+## url: "/\_docs/itmo-vk/presentation.pdf"
+
 ::
 
 ### We won 2nd place out of 17+ teams.

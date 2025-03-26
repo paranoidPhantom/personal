@@ -10,7 +10,7 @@ image: "/_images/itmo-pict/cover.png"
 
 To participate in the hackathon, we were required to solve a math quiz consisting of 10 problems. Only a limited number of people could proceed.
 
-### Here is *one* of the problems:
+### Here is _one_ of the problems:
 
 Find the last digit of the number
 
@@ -18,8 +18,7 @@ Find the last digit of the number
 
 Where 2024 is repeated 2024 times.
 
-
-#### Thankfully most of team my proceeded to the next round.
+#### Thankfully most of my team proceeded to the next round.
 
 ### The hackathon
 
@@ -31,11 +30,11 @@ Our presentation describes our stack and UI very well:
 
 <iframe class="w-full" style="aspect-ratio: 16 / 9; border-radius: var(--radius)" src="https://embed.figma.com/proto/y4AquqQEzFPWeuFuOHBqXU/ITMO-x-Tinkoff-Hackathon?type=design&node-id=1-6&scaling=contain&page-id=0%3A1&embed-host=share" allowfullscreen></iframe>
 
-We worked as a team, we worked as long as we could, and even as long as we couldn't (*we were late for our presentation*).
+We worked as a team, we worked as long as we could, and even as long as we couldn't (_we were late for our presentation_).
 
 #### To our surprise, our product was the most functional in the track, and we won!
 
-![Photo of my team at recieving prizes for 1st place](/_images/itmo-pict/awards.png)
+![Photo of my team at receiving prizes for 1st place](/_images/itmo-pict/awards.png)
 
 ---
 
