@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import InteractiveHoverButton from "../ui/InteractiveHoverButton.vue";
-import RadientText from "../ui/RadientText.vue";
+import RadiantText from "../ui/RadiantText.vue";
 
 const { locale } = useI18n();
 
@@ -59,11 +59,11 @@ const router = useRouter();
                         alt="Cover graphic"
                     />
                     <CardTitle>
-                        <RadientText class="inline-flex max-w-full py-2">
+                        <RadiantText class="inline-flex max-w-full py-2">
                             <span>
                                 {{ item.title }}
                             </span>
-                        </RadientText>
+                        </RadiantText>
                     </CardTitle>
                     <CardDescription class="opacity-50">{{
                         item.description
