@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import InteractiveHoverButton from "../ui/InteractiveHoverButton.vue";
-import RadiantText from "../ui/RadiantText.vue";
+import InteractiveHoverButton from "../ui/interactive-hover-button/InteractiveHoverButton.vue";
+import RadiantText from "../ui/radient-text/RadiantText.vue";
 
 const { locale } = useI18n();
 
