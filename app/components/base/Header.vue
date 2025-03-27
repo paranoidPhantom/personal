@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import LiquidLogo from "../ui/liquid-logo/LiquidLogo.vue";
+
 const { toPDF } = useAppConfig();
 </script>
 
@@ -6,7 +8,7 @@ const { toPDF } = useAppConfig();
     <Alert class="flex items-center gap-4 overflow-hidden">
         <ClientOnly>
             <NuxtLink to="/" class="mr-auto dark:invert-0 invert">
-                <img src="/favicon.svg" class="w-12" alt="Logo" />
+                <LiquidLogo class="w-24" imageUrl="/favicon.svg" />
             </NuxtLink>
             <template v-if="!toPDF">
                 <BaseLangSwitch data-aos="fade-left" data-aos-delay="100" />
