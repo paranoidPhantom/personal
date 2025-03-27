@@ -31,7 +31,7 @@ useSeoMeta({
                 <BaseHistory />
             </TabsContent>
             <TabsContent value="details">
-                <BaseDetails />
+                <BaseDetails hydrate-on-idle />
             </TabsContent>
         </Tabs>
     </div>
