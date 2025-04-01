@@ -43,11 +43,7 @@ export default defineNuxtConfig({
         },
     },
     routeRules: {
-        "/": {
-            redirect: "https://contract.gosuslugi.ru/",
-        },
         "/read/**": {
-            redirect: "https://contract.gosuslugi.ru/",
             isr: 1200,
         },
     },
