@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     compatibilityDate: "2024-04-03",
     experimental: {
-        componentIslands: true,
+        componentIslands: { selectiveClient: true },
     },
     devtools: { enabled: true },
     modules: [
