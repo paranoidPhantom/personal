@@ -8,7 +8,7 @@ const { toPDF } = useAppConfig();
     <Alert class="flex items-center gap-4 overflow-hidden">
         <ClientOnly>
             <NuxtLink to="/" class="mr-auto dark:invert-0 invert">
-                <LiquidLogo class="w-24" imageUrl="/favicon.svg" />
+                <LiquidLogo class="w-16" imageUrl="/favicon.svg" />
             </NuxtLink>
             <template v-if="!toPDF">
                 <BaseLangSwitch data-aos="fade-left" data-aos-delay="100" />

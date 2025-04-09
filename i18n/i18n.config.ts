@@ -26,6 +26,7 @@ export default defineI18nConfig(() => ({
             go_home: "go home",
             read_more: "Read more",
             download_presentation: "Download presentation",
+            noscript: "JavaScript is disabled in your browser.",
         },
         ru: {
             light: "Светлая",
@@ -51,6 +52,7 @@ export default defineI18nConfig(() => ({
             go_home: "go home",
             read_more: "Далее",
             download_presentation: "Скачать презентацию",
+            noscript: "JavaScript отключен в вашем браузере.",
         },
     },
 }));

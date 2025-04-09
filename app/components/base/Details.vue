@@ -16,6 +16,19 @@ const skills = [
         },
     },
     {
+        name: "SCSS",
+        link: "https://sass-lang.com",
+        icon: "logos:sass",
+        category: {
+            en: "Frontend",
+            ru: "Фронтенд",
+        },
+        description: {
+            en: "cuz like not css",
+            ru: "ну не ванильный же css",
+        },
+    },
+    {
         name: "Vue 3",
         link: "https://vuejs.org/",
         icon: "logos:vue",
@@ -26,6 +39,45 @@ const skills = [
         description: {
             en: "best frontend framework, except like maybe solid",
             ru: "лучший фрейм кроме мб solid",
+        },
+    },
+    {
+        name: "Nuxt 3",
+        link: "https://nuxt.com/",
+        icon: "logos:nuxt-icon",
+        category: {
+            en: "Frontend",
+            ru: "Фронтенд",
+        },
+        description: {
+            en: "vue with ssr and auto-imports is all i need",
+            ru: "я дурею с этой прикормки (vue + ssr + магия)",
+        },
+    },
+    {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com",
+        icon: "logos:tailwindcss-icon",
+        category: {
+            en: "Frontend",
+            ru: "Фронтенд",
+        },
+        description: {
+            en: "relative w-full rounded-lg border p-4 bg-background text-foreground sm:w-[calc(50%-4px)]",
+            ru: "relative w-full rounded-lg border p-4 bg-background text-foreground sm:w-[calc(50%-4px)]",
+        },
+    },
+    {
+        name: "Electron",
+        link: "https://electronjs.org",
+        icon: "logos:electron",
+        category: {
+            en: "Frontend",
+            ru: "Фронтенд",
+        },
+        description: {
+            en: "package your shitty web app into an even shittier desktop app",
+            ru: "1. делаем веб-приложение 2. пакуем его с хромом 3. продаём гоям под видом десктопа",
         },
     },
     {
@@ -42,16 +94,94 @@ const skills = [
         },
     },
     {
-        name: "Nuxt 3",
-        link: "https://nuxt.com/",
-        icon: "logos:nuxt-icon",
+        name: "Cloudflare",
+        link: "https://cloudflare.com",
+        icon: "logos:cloudflare-icon",
         category: {
-            en: "Frontend",
-            ru: "Фронтенд",
+            en: "SaaS",
+            ru: "SaaS",
         },
         description: {
-            en: "vue with ssr and auto-imports is all i need",
-            ru: "я дурею с этой прикормки",
+            en: "a saas as a skill lmao what",
+            ru: "вот это скилл (учился этому saas полгода)",
+        },
+    },
+    {
+        name: "GitHub Actions",
+        link: "https://github.com/features/actions/getting-started",
+        icon: "logos:github-actions",
+        category: {
+            en: "DevOps",
+            ru: "DevOps",
+        },
+        description: {
+            en: "gitlab is better tbf",
+            ru: "гитлаб получше будет увы",
+        },
+    },
+    {
+        name: "Supabase",
+        link: "https://supabase.com",
+        icon: "logos:supabase-icon",
+        category: {
+            en: "SaaS",
+            ru: "Saas",
+        },
+        description: {
+            en: "i like it if i gotta get something deployed fast and still have auth",
+            ru: "если времени мало а авторизация, постгря и s3 нужно, с пивом покатит",
+        },
+    },
+    {
+        name: "Nginx",
+        link: "https://nginx.org",
+        icon: "logos:nginx",
+        category: {
+            en: "DevOps",
+            ru: "DevOps",
+        },
+        description: {
+            en: "high-performance web server",
+            ru: "высокопроизводительный веб-сервер",
+        },
+    },
+    {
+        name: "Grafana",
+        link: "https://grafana.com",
+        icon: "logos:grafana",
+        category: {
+            en: "DevOps",
+            ru: "DevOps",
+        },
+        description: {
+            en: "yay let's visualize your python app failing",
+            ru: "круто визуализирует как твой 'проект' на питоне падает",
+        },
+    },
+    {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org",
+        icon: "logos:postgresql",
+        category: {
+            en: "Backend",
+            ru: "Бэкенд",
+        },
+        description: {
+            en: "reliable and robust database",
+            ru: "надежная и мощная база данных",
+        },
+    },
+    {
+        name: "Node.js",
+        link: "https://nodejs.org",
+        icon: "logos:nodejs-icon",
+        category: {
+            en: "Backend",
+            ru: "Бэкенд",
+        },
+        description: {
+            en: "index.js was a mistake",
+            ru: "index.js было ошибкой",
         },
     },
 ];
@@ -156,6 +286,21 @@ const { toPDF } = useAppConfig();
                 </AlertDescription>
             </Alert>
         </div>
+        <Alert>
+            <AlertTitle>JavaScript</AlertTitle>
+            <AlertDescription class="mt-2">
+                <TooltipProvider>
+                    <Tooltip>
+                        <TooltipTrigger>
+                            <Badge variant="outline">V8</Badge>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            <p>{{ $t("noscript") }}</p>
+                        </TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
+            </AlertDescription>
+        </Alert>
         <h3 class="text-2xl">{{ $t("skills") }}</h3>
         <div class="flex flex-wrap gap-2">
             <Alert
