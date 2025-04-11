@@ -36,7 +36,7 @@ const cutoffIndex = 5;
                 return post;
             }) ?? []"
             :key="`${locale}-${index}`"
-            data-aos="fade-up"
+            data-aos="zoom-in"
             :data-aos-delay="index * 100"
         >
             <CardHeader>
