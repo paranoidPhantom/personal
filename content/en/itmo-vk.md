@@ -56,9 +56,9 @@ You get the idea. Little by little everything got implemented in the most minima
 
 Our presentation is a great demonstration of what we did:
 
-## ::Presentation
+::Presentation
 
-## url: "/\_docs/itmo-vk/presentation.pdf"
+url: "/\_docs/itmo-vk/presentation.pdf"
 
 ::
 

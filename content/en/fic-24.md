@@ -18,9 +18,9 @@ This was by no means a positive experience and I to some extent hate the library
 
 You can, traditionally check out the presentation that our designer did a splendid job on:
 
-## ::Presentation
+::Presentation
 
-## url: "/\_docs/fic-24/presentation.pdf"
+url: "/\_docs/fic-24/presentation.pdf"
 
 ::
 

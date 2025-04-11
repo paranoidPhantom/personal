@@ -56,9 +56,9 @@ image: "/_images/itmo-vk/cover.png"
 
 Наша презентация отлично демонстрирует то, что мы сделали:
 
-## ::Presentation
+::Presentation
 
-## url: "/\_docs/itmo-vk/presentation.pdf"
+url: "/\_docs/itmo-vk/presentation.pdf"
 
 ::
 
