@@ -37,7 +37,6 @@ const cutoffIndex = 5;
             }) ?? []"
             :key="`${locale}-${index}`"
             data-aos="zoom-in"
-            :data-aos-delay="index * 100"
         >
             <CardHeader>
                 <NuxtImg
