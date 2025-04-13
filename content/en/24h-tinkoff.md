@@ -6,7 +6,7 @@ date: "October 27, 2024"
 image: "/_images/24h-tinkoff/cover.png"
 ---
 
-You can check out event's official website [here](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).
+[You can check out event's official website here](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).
 
 ## Project Overview
 

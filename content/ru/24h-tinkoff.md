@@ -6,7 +6,7 @@ date: "27 октября 2024"
 image: "/_images/24h-tinkoff/cover.png"
 ---
 
-Официальный сайт мероприятия можно посмотреть [здесь](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).
+[Официальный сайт мероприятия можно посмотреть здесь](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).
 
 ## Кейс на направлении "Разработка"
 

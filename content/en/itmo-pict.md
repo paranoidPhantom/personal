@@ -14,7 +14,7 @@ To participate in the hackathon, we were required to solve a math quiz consistin
 
 Find the last digit of the number
 
-#### ${2023} ^ {{2023} ^ {{2024} ^ {{...} ^ {2024}}}}$
+${2023} ^ {{2023} ^ {{2024} ^ {{...} ^ {2024}}}}$
 
 Where 2024 is repeated 2024 times.
 
