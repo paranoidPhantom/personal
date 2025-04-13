@@ -58,8 +58,10 @@ image: "/_images/itmo-vk/cover.png"
 
 ::Presentation
 
+---
 url: "/\_docs/itmo-vk/presentation.pdf"
 
+---
 ::
 
 ### Мы заняли 2 место из более чем 17 команд.

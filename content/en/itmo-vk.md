@@ -58,8 +58,10 @@ Our presentation is a great demonstration of what we did:
 
 ::Presentation
 
+---
 url: "/\_docs/itmo-vk/presentation.pdf"
 
+---
 ::
 
 ### We won 2nd place out of 17+ teams.

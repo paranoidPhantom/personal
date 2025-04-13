@@ -22,9 +22,9 @@ I used Nuxt 3 + Nuxt UI to make a nice interface quickly.
 You can get a good feeling for our work using the presentation below.
 
 ::Presentation
-
-url: "/\_docs/24h-tinkoff/presentation.pdf"
-
+---
+url: "/_docs/24h-tinkoff/presentation.pdf"
+---
 ::
 
 ## Results
