@@ -59,7 +59,7 @@ image: "/_images/itmo-vk/cover.png"
 ::Presentation
 
 ---
-url: "/\_docs/itmo-vk/presentation.pdf"
+url: "/_docs/itmo-vk/presentation.pdf"
 
 ---
 ::

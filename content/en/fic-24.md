@@ -22,7 +22,7 @@ You can, traditionally check out the presentation that our designer did a splend
 
 ---
 
-url: "/\_docs/fic-24/presentation.pdf"
+url: "/_docs/fic-24/presentation.pdf"
 
 ---
 

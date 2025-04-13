@@ -59,7 +59,7 @@ Our presentation is a great demonstration of what we did:
 ::Presentation
 
 ---
-url: "/\_docs/itmo-vk/presentation.pdf"
+url: "/_docs/itmo-vk/presentation.pdf"
 
 ---
 ::
