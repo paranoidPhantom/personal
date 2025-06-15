@@ -5,7 +5,7 @@ const skills = [
     {
         name: "Rust",
         link: "https://rust-lang.org",
-        icon: "logos:rust",
+        icon: "skill-icons:rust",
         category: {
             en: "Backend",
             ru: "Бэкенд",
@@ -18,7 +18,7 @@ const skills = [
     {
         name: "Neovim",
         link: "https://neovim.io",
-        icon: "logos:neovim",
+        icon: "devicon:neovim",
         category: {
             en: "Tools",
             ru: "Инструменты",
