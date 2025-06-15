@@ -65,7 +65,7 @@
             }
         }
         a {
-            @apply relative;
+            @apply relative underline underline-offset-1 decoration-wavy hover:underline-offset-2 hover:opacity-80;
         }
         hr {
             @apply dark:opacity-20;
