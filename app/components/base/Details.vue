@@ -3,6 +3,32 @@ const { locale } = useI18n();
 
 const skills = [
     {
+        name: "Rust",
+        link: "https://rust-lang.org",
+        icon: "logos:rust",
+        category: {
+            en: "Backend",
+            ru: "Бэкенд",
+        },
+        description: {
+            en: "⚡ (blazingly fast)",
+            ru: "⚡ (blazingly fast)",
+        },
+    },
+    {
+        name: "Neovim",
+        link: "https://neovim.io",
+        icon: "logos:neovim",
+        category: {
+            en: "Tools",
+            ru: "Инструменты",
+        },
+        description: {
+            en: ":q!",
+            ru: ":q!",
+        },
+    },
+    {
         name: "TypeScript",
         link: "https://typescriptlang.org/",
         icon: "logos:typescript-icon",
@@ -182,6 +208,19 @@ const skills = [
         description: {
             en: "index.js was a mistake",
             ru: "index.js было ошибкой",
+        },
+    },
+    {
+        name: "Bun",
+        link: "https://bun.sh",
+        icon: "logos:bun",
+        category: {
+            en: "Backend",
+            ru: "Бэкенд",
+        },
+        description: {
+            en: "literally just a bun",
+            ru: "просто булка",
         },
     },
 ];
