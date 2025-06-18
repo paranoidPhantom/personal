@@ -64,8 +64,10 @@
                 }
             }
         }
-        a {
-            @apply relative underline underline-offset-1 decoration-wavy hover:underline-offset-2 hover:opacity-80;
+        :not(h1, h2, h3, h4, h5, h6) {
+            > a {
+                @apply relative underline underline-offset-1 decoration-wavy hover:underline-offset-2 hover:opacity-80;
+            }
         }
         hr {
             @apply dark:opacity-20;
