@@ -247,16 +247,16 @@ const { toPDF } = useAppConfig();
                         </Tooltip>
                     </TooltipProvider>
                 </NuxtLink>
-                <NuxtLink to="https://vk.com/paranoidphantom">
+                <NuxtLink to="https://leetcode.com/u/paranoidPhantom">
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger>
                                 <Button variant="outline">
-                                    <Icon name="akar-icons:vk-fill" />
+                                    <Icon name="cib:leetcode" />
                                 </Button>
                             </TooltipTrigger>
                             <TooltipContent>
-                                <p>{{ $t("vk") }}</p>
+                                <p>{{ $t("leetcode") }}</p>
                             </TooltipContent>
                         </Tooltip>
                     </TooltipProvider>
