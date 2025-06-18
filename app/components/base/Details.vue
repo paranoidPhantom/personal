@@ -198,6 +198,19 @@ const skills = [
         },
     },
     {
+        name: "Bun",
+        link: "https://bun.sh",
+        icon: "logos:bun",
+        category: {
+            en: "Backend",
+            ru: "Бэкенд",
+        },
+        description: {
+            en: "Node but better",
+            ru: "Нода но получше будет",
+        },
+    },
+    {
         name: "Node.js",
         link: "https://nodejs.org",
         icon: "logos:nodejs-icon",
@@ -208,19 +221,6 @@ const skills = [
         description: {
             en: "index.js was a mistake",
             ru: "index.js было ошибкой",
-        },
-    },
-    {
-        name: "Bun",
-        link: "https://bun.sh",
-        icon: "logos:bun",
-        category: {
-            en: "Backend",
-            ru: "Бэкенд",
-        },
-        description: {
-            en: "literally just a bun",
-            ru: "просто булка",
         },
     },
 ];
