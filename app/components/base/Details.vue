@@ -159,6 +159,19 @@ const skills = [
         },
     },
     {
+        name: "Traefik",
+        link: "https://traefik.io",
+        icon: "devicon:traefikproxy",
+        category: {
+            en: "DevOps",
+            ru: "DevOps",
+        },
+        description: {
+            en: "a better nginx",
+            ru: "nginx но получше будет",
+        },
+    },
+    {
         name: "Nginx",
         link: "https://nginx.org",
         icon: "logos:nginx",
