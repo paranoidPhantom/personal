@@ -68,4 +68,4 @@ url: "/_docs/itmo-vk/presentation.pdf"
 
 ---
 
-[Official website of the hackathon](https://vkma-hack.ru)
+[Official website of the hackathon](https://web.archive.org/web/20250410000545/https://vkma-hack.ru/)

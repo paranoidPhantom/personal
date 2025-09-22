@@ -68,4 +68,4 @@ url: "/_docs/itmo-vk/presentation.pdf"
 
 ---
 
-[Официальный сайт хакатона](https://vkma-hack.ru)
+[Официальный сайт хакатона](https://web.archive.org/web/20250410000545/https://vkma-hack.ru/)
