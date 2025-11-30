@@ -1,5 +1,9 @@
 :root {
     font-family: "Lora";
+    a {
+        text-decoration: dashed underline 1px;
+        text-underline-offset: 2px;
+    }
 }
 
 ::selection {
