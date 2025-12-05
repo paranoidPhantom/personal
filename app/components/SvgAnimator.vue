@@ -14,8 +14,6 @@ withDefaults(defineProps<Props>(), {
     animate: 0,
     duration: 0,
     pathLength: 1500,
-    width: "200px",
-    height: "200px",
 });
 </script>
 
@@ -24,10 +22,10 @@ withDefaults(defineProps<Props>(), {
         :class="classes"
         :style="{
             'stroke-dashoffset': `${(animate / 100) * pathLength}`,
-            transition: `all ${duration}s ease-out`,
+            transition: `stroke-dashoffset ${duration}s ease-out`,
             'stroke-dasharray': pathLength,
             width: width,
-            height: height ?? 'auto',
+            height: height,
         }"
         v-html="svg"
     />

@@ -10,8 +10,17 @@ export default defineNuxtConfig({
         "@nuxtjs/color-mode",
         "@vueuse/nuxt",
         "nuxt-studio",
+        "@nuxtjs/i18n",
+        "@nuxt/icon",
     ],
     css: ["@/assets/css/index.scss"],
+    i18n: {
+        defaultLocale: "en",
+        locales: [
+            { code: "en", name: "English", file: "en.json" },
+            { code: "ru", name: "Русский", file: "ru.json" },
+        ],
+    },
     colorMode: {
         preference: "dark",
         fallback: "dark",

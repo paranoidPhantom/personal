@@ -1,0 +1,20 @@
+{
+	"home": "Home",
+	"hero.intro": "I like building stuff",
+	"hero.status": "I am currently",
+	"hero.statusTag": "unemployed",
+	"hero.education": "I currently attend",
+	"hero.universityTag": "ITMO University",
+	"hero.universityTag.href": "https://en.itmo.ru",
+	"hero.forLabel": "for",
+	"hero.degreeProgramTag": "computer science",
+	"hero.degreeProgramTag.href": "https://abit.itmo.ru/en/program/bachelor/programming",
+	"technologies.rust": "Rust",
+	"technologies.rustDescription": "I really enjoy working with Rust in my free time. I'm constantly impressed by the language's thorough design, and hope to one day utilize it in my day job.",
+	"technologies.web": "Vue & Nuxt.js",
+	"technologies.webDescription": "I have by far the most experience with web technologies. Although I have a fixed stack that I prefer, I started with vanilla JS and climbed my way up to meta-frameworks.",
+	"technologies.tooling": "Tooling",
+	"technologies.toolingDescription": "I use git and conventional commits on all my projects, daily-drive neovim for school stuff, and have fought with docker for a good number of hours.",
+	"download_presentation": "Download Presentation",
+	"download_resume": "Download Resume"
+}
