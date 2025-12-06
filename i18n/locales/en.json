@@ -16,5 +16,6 @@
 	"technologies.tooling": "Tooling",
 	"technologies.toolingDescription": "I use git and conventional commits on all my projects, daily-drive neovim for school stuff, and have fought with docker for a good number of hours.",
 	"download_presentation": "Download Presentation",
-	"download_resume": "Download Resume"
+	"download_resume": "Download Resume",
+	"back": "Back"
 }

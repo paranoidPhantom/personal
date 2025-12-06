@@ -48,7 +48,7 @@ const { data } = useAsyncData(
             class="flex items-center absolute top-4 left-4 space-x-2 text-sm opacity-70 hover:opacity-100 transition-opacity"
         >
             <Icon name="mdi:arrow-left" class="text-lg" />
-            Назад
+            {{ $t('back') }}
         </NuxtLink>
         <MarkdownFormatter>
             <ContentRenderer :value="data" />

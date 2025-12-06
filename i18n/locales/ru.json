@@ -16,5 +16,6 @@
 	"technologies.tooling": "Инструментарий",
 	"technologies.toolingDescription": "Я использую git и conventional commits во всех своих проектах и neovim для учёбы. Ещё я достаточно много времени пострадал с Docker.",
 	"download_presentation": "Скачать презентацию",
-	"download_resume": "Скачать резюме"
+	"download_resume": "Скачать резюме",
+	"back": "Назад"
 }
