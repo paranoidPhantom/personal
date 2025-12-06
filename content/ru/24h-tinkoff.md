@@ -6,8 +6,6 @@ date: "27 октября 2024"
 image: "/_images/24h-tinkoff/cover.png"
 ---
 
-[Официальный сайт мероприятия можно посмотреть здесь](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).
-
 ## Кейс на направлении "Разработка"
 
 В ходе хакатона наша команда разработала модель машинного обучения для прогнозирования выплат кешбэка на основе множества параметров.
@@ -24,7 +22,7 @@ image: "/_images/24h-tinkoff/cover.png"
 
 ::Presentation
 ---
-url: "/_docs/24h-tinkoff/presentation.pdf"
+url: "/static/24h-tinkoff/presentation.pdf"
 ---
 ::
 
@@ -33,3 +31,5 @@ url: "/_docs/24h-tinkoff/presentation.pdf"
 После бессонной ночи мы смогли создать продукт, который обеспечил нам 2-е место.
 
 ![Сертификат](/_images/24h-tinkoff/cert.png)
+
+[Официальный сайт мероприятия можно посмотреть здесь](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).

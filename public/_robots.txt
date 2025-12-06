@@ -1,3 +1,2 @@
-Allow: /
-
-Sitemap: https://hudalla.dev/sitemap.xml
+User-Agent: *
+Disallow:

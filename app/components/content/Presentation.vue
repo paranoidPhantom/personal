@@ -12,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="__presentation">
+    <div class="__presentation my-4">
         <iframe
             v-if="drawPDF === true"
             style="
@@ -22,8 +22,12 @@ onMounted(() => {
             "
             :src="url"
         />
-        <a :href="url" download="presentation.pdf" v-else>
-            <Button>{{ $t("download_presentation") }}</Button>
+        <a
+            v-else
+            :href="url"
+            :download="url.replaceAll('/', '-').replace('-', '')"
+        >
+            {{ $t("download_presentation") }}
         </a>
     </div>
 </template>

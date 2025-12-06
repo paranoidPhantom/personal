@@ -1,40 +1,21 @@
 <script lang="ts" setup>
-defineOgImage({
-    component: "OGImage",
-    props: {
-        title: "Andrei Hudalla",
-    },
-    emojis: "fluent-emoji",
-    cacheMaxAgeSeconds: 7200,
-});
-
-const { seo } = useAppConfig();
-
-const descriptionPicked =
-    seo.descriptions[Math.floor(Math.random() * seo.descriptions.length)];
-
-useSeoMeta({
-    description: descriptionPicked,
-    ogDescription: descriptionPicked,
-    twitterDescription: descriptionPicked,
+useHead({
+    titleTemplate: "%siteName",
 });
 </script>
 
 <template>
-    <div class="__home">
-        <Tabs default-value="history" class="my-4">
-            <TabsList>
-                <TabsTrigger value="history"> {{ $t("history") }} </TabsTrigger>
-                <TabsTrigger value="details"> {{ $t("details") }} </TabsTrigger>
-            </TabsList>
-            <TabsContent value="history">
-                <BaseHistory />
-            </TabsContent>
-            <TabsContent value="details">
-                <BaseDetails hydrate-on-idle />
-            </TabsContent>
-        </Tabs>
+    <div class="mx-auto flex max-w-[1000px] w-full flex-col px-8 sm:px-16">
+        <HeroSection />
+        <Technologies />
+        <Articles />
+        <a
+            class="mb-16 flex items-center gap-2"
+            href="/static/resume.pdf"
+            download="hudalla-dev-resume.pdf"
+        >
+            <Icon name="mdi:document" />
+            {{ $t("download_resume") }}
+        </a>
     </div>
 </template>
-
-<style lang="scss" scoped></style>

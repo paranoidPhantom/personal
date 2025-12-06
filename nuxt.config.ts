@@ -1,76 +1,45 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    compatibilityDate: "2024-04-03",
-    experimental: {
-        componentIslands: { selectiveClient: true },
-    },
+    compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
     modules: [
+        "@nuxt/content",
+        "@nuxt/eslint",
         "@nuxt/fonts",
         "@nuxtjs/tailwindcss",
-        "shadcn-nuxt",
-        "@nuxt/icon",
-        "@nuxtjs/i18n",
         "@nuxtjs/color-mode",
-        "nuxt-aos",
+        "@vueuse/nuxt",
+        "nuxt-studio",
+        "@nuxtjs/i18n",
+        "@nuxt/icon",
         "@nuxtjs/seo",
-        "@nuxt/content",
-        "@nuxt/image",
-        // "@nuxthq/studio",
     ],
-    build: {
-        transpile: ["shiki"],
-    },
-    shadcn: {
-        /**
-         * Prefix for all the imported component
-         */
-        prefix: "",
-        /**
-         * Directory that the component lives in.
-         * @default "./components/ui"
-         */
-        componentDir: "./app/components/ui",
-    },
     site: {
-        url: "https://hudalla.dev",
         name: "Andrei Hudalla",
+        url: "https://hudalla.dev",
     },
-    app: {
-        pageTransition: {
-            name: "page",
-            mode: "out-in",
-        },
-    },
-    routeRules: {
-        "/read/**": {
-            isr: 1200,
-        },
-    },
-    icon: {
-        mode: "svg",
-        serverBundle: {
-            remote: "jsdelivr",
-        },
-    },
-    future: {
-        compatibilityVersion: 4,
-    },
-    css: ["@/assets/scss/global.scss"],
-    content: {},
+    css: ["@/assets/css/index.scss"],
     i18n: {
-        strategy: "no_prefix",
         defaultLocale: "en",
-        locales: ["en", "ru"],
+        locales: [
+            { code: "en", name: "English", file: "en.json" },
+            { code: "ru", name: "Русский", file: "ru.json" },
+        ],
     },
     colorMode: {
-        preference: "system", // default value of $colorMode.preference
-        fallback: "dark", // fallback value if not system preference found
-        hid: "nuxt-color-mode-script",
-        globalName: "__NUXT_COLOR_MODE__",
-        componentName: "ColorScheme",
-        classPrefix: "",
+        preference: "dark",
+        fallback: "dark",
         classSuffix: "",
-        storageKey: "nuxt-color-mode",
+    },
+    studio: {
+        route: "/_studio",
+
+        // GitHub repository configuration (owner and repo are required)
+        repository: {
+            provider: "github",
+            owner: "paranoidPhantom",
+            repo: "personal",
+            branch: "master",
+        },
     },
 });
