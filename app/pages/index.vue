@@ -1,3 +1,9 @@
+<script lang="ts" setup>
+useHead({
+    titleTemplate: "%siteName",
+});
+</script>
+
 <template>
     <div class="mx-auto flex max-w-[1000px] w-full flex-col px-8 sm:px-16">
         <HeroSection />
