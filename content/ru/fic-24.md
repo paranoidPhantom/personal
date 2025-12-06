@@ -18,7 +18,7 @@ image: "/_images/fic-24/cover.png"
 
 ::Presentation
 ---
-url: "/_static/fic-24/presentation.pdf"
+url: "/static/fic-24/presentation.pdf"
 ---
 ::
 

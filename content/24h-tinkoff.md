@@ -19,7 +19,7 @@ I used Nuxt 3 + Nuxt UI to make a nice interface quickly.
 
 You can get a good feeling for our work using the presentation below.
 
-::presentation{url="/_static/24h-tinkoff/presentation.pdf"}
+::presentation{url="/static/24h-tinkoff/presentation.pdf"}
 ::
 
 ## Results

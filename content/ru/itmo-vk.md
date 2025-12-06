@@ -56,7 +56,7 @@ index: 4
 
 Наша презентация отлично демонстрирует то, что мы сделали:
 
-::presentation{url="/_static/itmo-vk/presentation.pdf"}
+::presentation{url="/static/itmo-vk/presentation.pdf"}
 ::
 
 Мы заняли 2 место из более чем 17 команд.

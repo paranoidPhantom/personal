@@ -19,13 +19,9 @@ This was by no means a positive experience and I to some extent hate the library
 You can, traditionally check out the presentation that our designer did a splendid job on:
 
 ::Presentation
-
 ---
-
-url: "/_static/fic-24/presentation.pdf"
-
+url: "/static/fic-24/presentation.pdf"
 ---
-
 ::
 
 This work put us in 1st place in the case.

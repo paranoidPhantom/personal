@@ -22,7 +22,7 @@ image: "/_images/24h-tinkoff/cover.png"
 
 ::Presentation
 ---
-url: "/_static/24h-tinkoff/presentation.pdf"
+url: "/static/24h-tinkoff/presentation.pdf"
 ---
 ::
 

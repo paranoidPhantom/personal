@@ -1,9 +1,9 @@
 ---
-title: "Silver medalist @ PROD 2023'24"
-description: "Track - Frontend"
+title: Silver medalist @ PROD 2023'24
+description: Track - Frontend
+date: April 4, 2024
+image: /_images/prod-24/cover.png
 index: 1
-date: "April 4, 2024"
-image: "/_images/prod-24/cover.png"
 ---
 
 ## The stages
@@ -11,6 +11,7 @@ image: "/_images/prod-24/cover.png"
 ### Stage 1 - [General CS quiz](https://vk.com/wall-223720604_61)
 
 This stage was a general CS quiz:
+
 - We were given 2 hours to solve 30 questions.
 - 3879 contestants attempted the quiz.
 - It tested our knowledge on web fundamentals, and general CS knowledge.
@@ -45,12 +46,9 @@ My team picked a case about optimizing feedback collection for businesses.
 
 We developed a prototype: it had a dashboard for businesses to manage questions, and analyze feedback. We even integrated it with a LLM called YandexGPT that would analyze questions and feedback for those questions and suggest how to improve metrics.
 
-
 We had to present the result of our 4 days of work to 30 judges from the industry.
 
 ![Presentation image](/_images/prod-24/presentation.png)
-
----
 
 ## The results
 

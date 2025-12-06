@@ -35,7 +35,7 @@ image: "/_images/prod-25/cover.png"
 
 ::Presentation
 ---
-url: "/_static/prod-25/presentation.pdf"
+url: "/static/prod-25/presentation.pdf"
 ---
 ::
 

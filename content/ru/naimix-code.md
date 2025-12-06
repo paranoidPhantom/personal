@@ -1,9 +1,9 @@
 ---
-title: "2 место @ Наймикс code"
-description: "Аналитический инструмент для рекрутеров на платформе Наймикс."
+title: 2 место @ Наймикс code
+description: Аналитический инструмент для рекрутеров на платформе Наймикс.
+date: 17 ноября 2024
+image: /_images/naimix-code/cover.png
 index: 6
-date: "17 ноября 2024"
-image: "/_images/naimix-code/cover.png"
 ---
 
 ## Кейс
@@ -24,12 +24,9 @@ image: "/_images/naimix-code/cover.png"
 
 Чтобы лучше понять наш продукт, посмотрите презентацию.
 
-::Presentation
----
-url: "/_static/naimix-code/presentation.pdf"
----
+::presentation{url="/static/naimix-code/presentation.pdf"}
 ::
 
 Мы заняли 2-е место и выиграли 60,000 рублей.
 
-<iframe class="w-full" style="aspect-ratio: 16 / 9; border-radius: var(--radius)" src="https://vk.com/video_ext.php?oid=-189043960&id=456239120&hd=2" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+:iframe{.w-full allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allow-full-screen="true" frame-border="0" src="https://vk.com/video_ext.php?oid=-189043960&id=456239120&hd=2" style="aspect-ratio: 16 / 9; border-radius: var(--radius)"}

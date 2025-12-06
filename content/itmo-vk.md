@@ -56,7 +56,7 @@ You get the idea. Little by little everything got implemented in the most minima
 
 Our presentation is a great demonstration of what we did:
 
-::presentation{url="/_static/itmo-vk/presentation.pdf"}
+::presentation{url="/static/itmo-vk/presentation.pdf"}
 ::
 
 We won 2nd place out of 17+ teams.

@@ -36,7 +36,7 @@ For the team stage, we received 80 points.
 
 ::Presentation
 ---
-url: "/_static/prod-25/presentation.pdf"
+url: "/static/prod-25/presentation.pdf"
 ---
 ::
 
