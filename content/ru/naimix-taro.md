@@ -3,7 +3,7 @@ title: "2 место @ Наймикс code"
 description: "Аналитический инструмент для рекрутеров на платформе Наймикс."
 index: 6
 date: "17 ноября 2024"
-image: "/_images/naimix-taro/cover.png"
+image: "/_images/naimix-code/cover.png"
 ---
 
 ## Кейс
@@ -26,7 +26,7 @@ image: "/_images/naimix-taro/cover.png"
 
 ::Presentation
 ---
-url: "/_static/naimix-taro/presentation.pdf"
+url: "/_static/naimix-code/presentation.pdf"
 ---
 ::
 

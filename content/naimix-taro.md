@@ -3,7 +3,7 @@ title: "2 place @ Naimix code"
 description: "An analytical tool for recruiters, for the 'Naimix' platform."
 index: 6
 date: "November 17, 2024"
-image: "/_images/naimix-taro/cover.png"
+image: "/_images/naimix-code/cover.png"
 ---
 
 ## The case
@@ -28,7 +28,7 @@ To get a good feeling for the product, you can check out the presentation.
 
 ::Presentation
 ---
-url: "/_static/naimix-taro/presentation.pdf"
+url: "/_static/naimix-code/presentation.pdf"
 ---
 ::
 
