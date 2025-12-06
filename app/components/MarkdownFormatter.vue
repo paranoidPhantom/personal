@@ -10,22 +10,22 @@
 .md {
     // h1 - Main heading
     h1 {
-        @apply scroll-m-20  text-4xl font-extrabold tracking-tight text-balance;
+        @apply scroll-m-20 mt-10 mb-6 text-4xl font-extrabold tracking-tight text-balance;
     }
 
     // h2 - Section heading
     h2 {
-        @apply scroll-m-20 border-b border-neutral-200 dark:border-neutral-800 pt-4 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
+        @apply scroll-m-20 mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
     }
 
     // h3 - Subsection heading
     h3 {
-        @apply scroll-m-20 text-2xl font-semibold tracking-tight;
+        @apply scroll-m-20 mt-6 mb-3 text-2xl font-semibold tracking-tight;
     }
 
     // h4 - Minor heading
     h4 {
-        @apply scroll-m-20 text-xl font-semibold tracking-tight;
+        @apply scroll-m-20 mt-4 mb-2 text-xl font-semibold tracking-tight;
     }
 
     // Paragraph
@@ -64,7 +64,7 @@
 
     // Unordered list
     ul {
-        @apply my-6 ml-6 list-disc [&>li]:mt-2;
+        @apply my-4 ml-5 list-disc [&>li]:mt-1;
     }
 
     // Ordered list
@@ -98,7 +98,7 @@
 
     // Images
     img {
-        @apply rounded-lg my-6 max-w-[500px];
+        @apply rounded-lg my-6 max-w-[500px] w-full;
     }
 }
 </style>
