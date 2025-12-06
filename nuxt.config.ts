@@ -12,7 +12,12 @@ export default defineNuxtConfig({
         "nuxt-studio",
         "@nuxtjs/i18n",
         "@nuxt/icon",
+        "@nuxtjs/seo",
     ],
+    site: {
+        name: "Andrei Hudalla",
+        url: "https://hudalla.dev",
+    },
     css: ["@/assets/css/index.scss"],
     i18n: {
         defaultLocale: "en",
