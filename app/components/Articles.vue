@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import PatternSvg from "~/assets/graphics/pattern.svg?raw";
 const { locale } = useI18n();
 
 const { data: articles } = useAsyncData(
@@ -18,21 +19,34 @@ const { data: articles } = useAsyncData(
         watch: [locale],
     }
 );
+
+const hoverState = ref<Record<string, boolean>>({});
 </script>
 
 <template>
     <div class="flex flex-col gap-4 py-16">
         <NuxtLink
-            v-for="item in articles"
+            v-for="(item, idx) in articles"
             :key="item.id"
             :to="item.path"
-            class="flex justify-between items-center gap-2 relative overflow-hidden py-4 px-8 rounded-2xl item !no-underline"
+            class="border border-neutral-800 flex flex-col md:flex-row justify-between md:items-center gap-4 relative overflow-hidden py-4 px-8 rounded-2xl item !no-underline"
+            @mouseenter="hoverState[item.id] = true"
+            @mouseleave="hoverState[item.id] = false"
         >
+            <SvgAnimator
+                classes="absolute aspect-1"
+                :animate="hoverState[item.id] ? 0 : 100"
+                :duration="2"
+                :svg="PatternSvg"
+                :path-length="7000"
+                width="100%"
+                :style="{ rotate: `${91725 * idx}deg` }"
+            />
             <div class="flex flex-col gap-2 w-1/2">
                 <h4 class="transition-transform font-bold">
                     {{ item.title }}
                 </h4>
-                <p class="text-xs opacity-50">
+                <p class="transition-transform text-xs opacity-50 duration-500">
                     {{ item.description }}
                 </p>
             </div>
@@ -42,7 +56,7 @@ const { data: articles } = useAsyncData(
                 :alt="item.title"
             />
             <img
-                class="w-48 h-24 object-cover rounded-xl grayscale thumbnail transition-all"
+                class="w-full md:w-48 aspect-2 object-cover rounded-xl grayscale thumbnail transition-all"
                 :src="item.image"
                 :alt="item.title"
             />
@@ -53,11 +67,14 @@ const { data: articles } = useAsyncData(
 <style lang="scss" scoped>
 .item {
     &:hover {
-        > h4 {
+        h4 {
+            @apply translate-x-2;
+        }
+        p {
             @apply translate-x-2;
         }
         > .thumbnail {
-            @apply scale-110 filter-none;
+            @apply md:scale-110 scale-[104%] filter-none;
         }
         > .glow {
             @apply opacity-40 grayscale-0;
