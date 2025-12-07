@@ -42,7 +42,7 @@ const hoverState = ref<Record<string, boolean>>({});
                 width="100%"
                 :style="{ rotate: `${91725 * idx}deg` }"
             />
-            <div class="flex flex-col gap-2 w-1/2">
+            <div class="flex flex-col gap-2 md:w-1/2">
                 <h4 class="transition-transform font-bold">
                     {{ item.title }}
                 </h4>
