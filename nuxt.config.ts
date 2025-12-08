@@ -18,6 +18,9 @@ export default defineNuxtConfig({
         name: "Andrei Hudalla",
         url: "https://hudalla.dev",
     },
+    sitemap: {
+        sources: ["/api/__sitemap__/urls"],
+    },
     css: ["@/assets/css/index.scss"],
     i18n: {
         defaultLocale: "en",
