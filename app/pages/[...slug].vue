@@ -13,7 +13,7 @@ definePageMeta({
                     statusCode: 404,
                     statusMessage: "Page not found",
                 });
-            }	
+            }
         },
     ],
 });
@@ -36,6 +36,12 @@ const { data } = useAsyncData(
         watch: [contentPath],
     }
 );
+
+watchEffect(() => {
+    useHead({
+        title: data.value?.title,
+    });
+});
 </script>
 
 <template>
@@ -48,7 +54,7 @@ const { data } = useAsyncData(
             class="flex items-center absolute top-4 left-4 space-x-2 text-sm opacity-70 hover:opacity-100 transition-opacity"
         >
             <Icon name="mdi:arrow-left" class="text-lg" />
-            {{ $t('back') }}
+            {{ $t("back") }}
         </NuxtLink>
         <MarkdownFormatter>
             <ContentRenderer :value="data" />
