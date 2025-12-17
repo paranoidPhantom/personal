@@ -15,10 +15,14 @@ const activateAnimations = ref(0);
 onMounted(() => {
     setTimeout(() => {
         activateAnimations.value = 1;
-    }, 400);
+    }, 200);
     setTimeout(() => {
         activateAnimations.value = 2;
-    }, 1000);
+    }, 600);
+});
+const client = ref(false);
+onMounted(() => {
+    client.value = true;
 });
 </script>
 
@@ -60,13 +64,15 @@ onMounted(() => {
         </div>
         <div class="h-full flex items-center justify-center">
             <h1 class="sr-only">Andrei Hudalla</h1>
-            <div class="space-y-2">
-                <p class="text-xl">{{ $t("hero.intro") }}</p>
-                <p>
+            <div v-show="client" class="space-y-2">
+                <p data-aos="fade-left" class="text-xl">
+                    {{ $t("hero.intro") }}
+                </p>
+                <p data-aos="fade-left" data-aos-delay="50">
                     {{ $t("hero.status") }}
                     <Tag>{{ $t("hero.statusTag") }}</Tag>
                 </p>
-                <p>
+                <p data-aos="fade-left" data-aos-delay="100">
                     {{ $t("hero.education") }}
                     <NuxtLink :to="$t('hero.universityTag.href')">
                         <Tag>{{ $t("hero.universityTag") }}</Tag>
