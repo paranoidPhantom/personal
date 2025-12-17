@@ -51,12 +51,12 @@ const hoverState = ref<Record<string, boolean>>({});
                 </p>
             </div>
             <img
-                class="absolute inset-0 blur-[100px] -z-10 h-full w-full object-cover opacity-10 grayscale glow transition-all -scale-x-100"
+                class="absolute inset-0 blur-[100px] -z-10 h-full w-full object-cover opacity-10 grayscale glow transition-all duration-300 -scale-x-100"
                 :src="item.image"
                 :alt="item.title"
             />
             <img
-                class="w-full md:w-48 aspect-2 object-cover rounded-xl grayscale thumbnail transition-all"
+                class="w-full md:w-48 aspect-2 object-cover rounded-xl grayscale thumbnail transition-all duration-300"
                 :src="item.image"
                 :alt="item.title"
             />
