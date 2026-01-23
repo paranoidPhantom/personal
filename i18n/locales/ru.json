@@ -14,7 +14,7 @@
 	"technologies.web": "Vue & Nuxt.js",
 	"technologies.webDescription": "У меня больше всего опыта с веб-технологиями. Хоть я сейчас и выбрал любимый стек, начинал я с ванильного JS и постепенно дошёл до мета-фреймворков.",
 	"technologies.tooling": "Инструментарий",
-	"technologies.toolingDescription": "Я использую git и conventional commits во всех своих проектах и neovim для учёбы. Ещё я достаточно много времени пострадал с Docker.",
+	"technologies.toolingDescription": "Я использую git и conventional commits во всех своих проектах и neovim для учёбы. Ещё я настрадался с докером.",
 	"download_presentation": "Скачать презентацию",
 	"download_resume": "Скачать резюме",
 	"back": "Назад"
