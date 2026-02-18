@@ -10,15 +10,7 @@ image: "/_images/itmo-pict/cover.png"
 
 To participate in the hackathon, we were required to solve a math quiz consisting of 10 problems. Only a limited number of people could proceed.
 
-### Here is _one_ of the problems:
-
-Find the last digit of the number
-
-${2023} ^ {{2023} ^ {{2024} ^ {{...} ^ {2024}}}}$
-
-Where 2024 is repeated 2024 times.
-
-#### Thankfully most of my team proceeded to the next round.
+Thankfully most of my team proceeded to the next round.
 
 ### The hackathon
 
