@@ -70,7 +70,17 @@ onMounted(() => {
                 </p>
                 <p data-aos="fade-left" data-aos-delay="50">
                     {{ $t("hero.status") }}
-                    <Tag>{{ $t("hero.statusTag") }}</Tag>
+                    <NuxtLink :to="$t('hero.statusTag.href')">
+                        <Tag
+                            class="border border-[#FFDD2F] transition-colors duration-300 delay-300"
+                            :style="{
+                                '--tw-border-opacity': activateAnimations
+                                    ? '1'
+                                    : '0',
+                            }"
+                            >{{ $t("hero.statusTag") }}</Tag
+                        >
+                    </NuxtLink>
                 </p>
                 <p data-aos="fade-left" data-aos-delay="100">
                     {{ $t("hero.education") }}
