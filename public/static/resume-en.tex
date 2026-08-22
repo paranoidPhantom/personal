@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{apple_emoji}
+\makeatletter
+\def\private@AppleEmojiprint#1#2{\text{\includegraphics[height=1.0em,valign=B,raise=-0.15em]{emoji/#1#2.png}}}
+\makeatother
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+	{\Huge \textbf{Andrei Hudalla}}\\[0.3em]
+	Remote (UTC-5), On-site (MN) | andrei@hudalla.dev \\
+	\href{https://www.linkedin.com/in/hdla/}{linkedin.com/in/hdla} | github.com/paranoidPhantom
+\end{center}
+
+\section*{Education}
+\noindent\textbf{Generic School\textless T\textgreater} \hfill \textit{2022 - 2025}
+
+\vspace{2mm}
+
+\noindent\href{https://en.itmo.ru/}{\textbf{ITMO University}} \hfill \textit{September 2025 - Present} \\
+\href{https://abit.itmo.ru/en/program/bachelor/programming}{\textit{Computer Technologies}} \hfill Applied Mathematics and Computer Science
+
+\section*{Work Experience}
+
+\begin{center}
+	\makebox[\linewidth][c]{\textcolor{gray}{\rule{0.45\linewidth}{0.4pt}\hspace{0.8em}\small vacation\hspace{0.8em}\rule{0.45\linewidth}{0.4pt}}}
+\end{center}
+
+\noindent\href{https://www.linkedin.com/company/tinkoff/}{\textbf{T-Bank (formerly Tinkoff)}} \hfill \textit{February - June 2026} \\
+\textit{Frontend Developer Intern} \textbullet\ \textit{Vue.js, React}
+
+\section*{Achievements}
+\begin{itemize}[leftmargin=*]
+	\item Finalist + 7th place at \href{https://vk.com/wall-41208167_2648}{\textbf{VK Cup}} (JS track), 2023
+	\item Prize winner of \href{https://prodcontest.com/eng}{\textbf{PROD Olympiad}} (frontend development), 2024
+	\item 1st place at \href{https://picthack.itmo.ru/}{\textbf{Startup in 10 Hours PIiKT \& Tinkoff Hackathon}}, 2024
+	\item 2nd place at \href{https://web.archive.org/web/20250410000545/https://vkma-hack.ru/}{\textbf{VK Mini Apps × ITMO Hackathon}}, 2024
+	\item 2nd place at \href{https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/}{\textbf{24 Hours at Tinkoff Hackathon}}, 2024
+	\item 2nd place at \href{https://vk.com/video_ext.php?oid=-189043960&id=456239120&hd=2}{\textbf{Naimix Code Hackathon}}, 2024
+	\item 1st place at \href{https://xn--2024-94d5ep.xn--p1ai/hackathon}{\textbf{Forum of Innovation Centers (FIC) Hackathon}}, 2024
+	\item Prize winner of \href{https://prodcontest.com/eng}{\textbf{PROD Olympiad}} (frontend development), 2025
+\end{itemize}
+
+\section*{Projects}
+
+\noindent\href{https://github.com/paranoidPhantom/tgauth}{\textbf{Telegram Auth}} \textit{TypeScript/Nuxt.js} \hfill June 2024
+\begin{itemize}[leftmargin=*]
+	\item Telegram authentication library for Nuxt (first shot at OSS — 10 $\geq$ ⭐).
+\end{itemize}
+
+\vspace{5mm}
+
+\noindent\href{https://github.com/paranoidPhantom/eclipse}{\textbf{Telegram Bot Client}} \textit{Rust, Vue/Nuxt.js, PostgreSQL, Traefik, Protobuf} \hfill June - August 2025
+\begin{itemize}[leftmargin=*]
+	\item Web client for interacting with Telegram on behalf of a bot; implemented two-way messaging (including media).
+	\item Client-server communication is built on Protobuf + WebSocket (this was a learning experience).
+\end{itemize}
+
+\section*{Skills}
+
+\noindent\textbf{Languages}: TypeScript, Rust
+
+\noindent\textbf{Frameworks}: Vue, React, Tailwind
+
+\noindent\textbf{Tools}: Git, Docker, Linux, Github Actions, Neovim
+
+\vspace{1mm}
+\noindent\textbf{Familiarity}: C/C++, Java, Clojure
+
+\end{document}
