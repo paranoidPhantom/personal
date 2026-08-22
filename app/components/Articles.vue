@@ -68,10 +68,10 @@ const hoverState = ref<Record<string, boolean>>({});
 .item {
     &:hover {
         h4 {
-            @apply translate-x-2;
+            @apply md:translate-x-2;
         }
         p {
-            @apply translate-x-2;
+            @apply md:translate-x-2;
         }
         > .thumbnail {
             @apply md:scale-110 scale-[104%] filter-none;
