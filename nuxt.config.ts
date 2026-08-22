@@ -29,6 +29,10 @@ export default defineNuxtConfig({
             { code: "en", name: "English", file: "en.json" },
             { code: "ru", name: "Русский", file: "ru.json" },
         ],
+        compilation: {
+          strictMessage: false,
+          escapeHtml: false
+        },
     },
     colorMode: {
         preference: "dark",

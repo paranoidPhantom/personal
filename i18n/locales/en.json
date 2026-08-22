@@ -17,7 +17,7 @@
 	"technologies.web": "Vue & Nuxt.js",
 	"technologies.webDescription": "I have by far the most experience with web technologies. Although I have a fixed stack that I prefer, I started with vanilla JS and climbed my way up to meta-frameworks.",
 	"technologies.tooling": "Tooling",
-	"technologies.toolingDescription": "I use git and conventional commits on all my projects, daily-drive neovim for school stuff, and have fought with docker for a good number of hours.",
+	"technologies.toolingDescription": "I <a href=\"https://github.com/paranoidPhantom/nix-config\"target=\"_blank\">manage my system</a> with nix, daily drive neovim, understand git down to plumbing commands. I am also no stranger to docker",
 	"download_presentation": "Download Presentation",
 	"download_resume": "Download Resume",
 	"download_resume_url": "/static/resume-en.pdf",

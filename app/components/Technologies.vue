@@ -107,9 +107,7 @@ const devops = computed(
                 <h1 class="font-bold text-3xl text-uppercase text-right">
                     {{ $t("technologies.tooling") }}
                 </h1>
-                <p class="w-2/3 text-right">
-                    {{ $t("technologies.toolingDescription") }}
-                </p>
+                <p class="w-2/3 text-right" v-html="$t('technologies.toolingDescription')" />
             </div>
         </div>
     </div>
