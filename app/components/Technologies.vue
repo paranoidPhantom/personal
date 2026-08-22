@@ -37,7 +37,7 @@ const webProgress = computed(
 const devops = computed(
     () =>
         clamp(
-            (devopsBlock.value?.offsetTop ?? 0) - height.value / 4 - y.value,
+            (devopsBlock.value?.offsetTop ?? 0) - height.value / 4 - y.value + 100,
             0,
             100 * animationSlowdown
         ) / animationSlowdown
@@ -100,7 +100,7 @@ const devops = computed(
                     :duration="0.2"
                     :svg="DevopsSvg"
                     :path-length="1240"
-                    width="150px"
+                    width="200px"
                 />
             </SpotlightCube>
             <div class="flex flex-col gap-2 items-end">
