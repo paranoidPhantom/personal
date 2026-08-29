@@ -80,7 +80,6 @@ export default defineCachedEventHandler(async () => {
           slug
           title
           subtitle
-          genre
           description
           cover
           authors {
