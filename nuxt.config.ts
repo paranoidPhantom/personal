@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    runtimeConfig: {
+        literalAccountEmail: process.env.NUXT_LITERAL_ACCOUNT_EMAIL,
+        literalAccountPassword: process.env.NUXT_LITERAL_ACCOUNT_PASSWORD,
+    },
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
     modules: [
