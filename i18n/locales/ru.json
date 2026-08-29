@@ -21,5 +21,7 @@
 	"download_presentation": "Скачать презентацию",
 	"download_resume": "Скачать резюме",
 	"download_resume_url": "/static/resume.pdf",
-	"back": "Назад"
+	"back": "Назад",
+  "reading": "Сейчас читаю",
+  "fetched_from_literal": "Вытянуто с"
 }

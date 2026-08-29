@@ -21,5 +21,7 @@
 	"download_presentation": "Download Presentation",
 	"download_resume": "Download Resume",
 	"download_resume_url": "/static/resume-en.pdf",
-	"back": "Back"
+	"back": "Back",
+  "reading": "Currently reading",
+  "fetched_from_literal": "Fetched from"
 }
