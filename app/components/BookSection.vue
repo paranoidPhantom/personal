@@ -12,9 +12,8 @@ const { data } = useFetch("/api/books")
           <img class="blur-[4px] absolute top-[40px] left-[86px] w-28 h-[174px]" style="transform: skewY(-11deg) scale(110%);" :src="data.cover" :alt="data.title">
           <!-- Real image -->
           <img class="absolute top-[40px] left-[86px] w-28 h-[174px]" style="transform: skewY(-11deg);" :src="data.cover" :alt="data.title">
-          <NuxtLink target="_blank" :to="`https://literal.club/book/${data.slug}`" >
-              <div class="absolute left-0 top-0 opacity-50" v-html="Book" />
-          </NuxtLink>
+          <div class="absolute left-0 top-0 opacity-50" v-html="Book" />
+          <NuxtLink class="absolute w-[300px] h-[300px] z-10" target="_blank" :to="`https://literal.club/book/${data.slug}`" />
       </div>
       <div class="relative min-h-[300px] pt-[300px] md:pl-[300px] md:pt-0 space-y-2">
           <h3 class="opacity-50">{{ $t("reading") }}</h3>
