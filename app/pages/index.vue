@@ -8,6 +8,7 @@ useHead({
     <div class="mx-auto flex max-w-[1000px] w-full flex-col px-8 sm:px-16">
         <HeroSection />
         <Technologies />
+        <BookSection />
         <Articles />
         <div class="flex justify-center gap-4 items-center mb-16">
             <a
