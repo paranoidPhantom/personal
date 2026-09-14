@@ -17,7 +17,7 @@
 	"technologies.web": "Vue & Nuxt.js",
 	"technologies.webDescription": "У меня больше всего опыта с веб-технологиями. Хоть я сейчас и выбрал любимый стек, начинал я с ванильного JS и постепенно дошёл до мета-фреймворков.",
 	"technologies.tooling": "Инструментарий",
-	"technologies.toolingDescription": "I <a href=\"https://github.com/paranoidPhantom/nix-config\"target=\"_blank\">manage my system</a> with nix, daily drive neovim, understand git down to plumbing commands. I am also no stranger to docker.",
+	"technologies.toolingDescription": "Я <a href=\"https://github.com/paranoidPhantom/nix-config\"target=\"_blank\">конфигурирую систему</a> через nix, пишу приемущественно в neovim, понимаю git вплоть до 'plumbing' команд. И с докером я на ты.",
 	"download_presentation": "Скачать презентацию",
 	"download_resume": "Скачать резюме",
 	"download_resume_url": "/static/resume.pdf",
