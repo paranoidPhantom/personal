@@ -35,3 +35,5 @@ image: "/_images/vk-cup-22/cover.png"
 ![Демонстрация](/_images/vk-cup-22/demo.png)
 
 Мою полную реализацию можно посмотреть на [GitHub](https://github.com/paranoidPhantom/VK-Cup-2022-JS).
+
+Результаты финала доступны [здесь](https://vk.ru/@cup-final-results-22-23).

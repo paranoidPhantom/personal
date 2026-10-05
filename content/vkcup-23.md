@@ -35,3 +35,5 @@ I had to learn everything from scratch, but my hope to pass the round again and 
 ![Demo](/_images/vk-cup-22/demo.png)
 
 You can view my full implementation on [GitHub](https://github.com/paranoidPhantom/VK-Cup-2022-JS).
+
+You can view final standings [here](https://vk.ru/@cup-final-results-22-23).
