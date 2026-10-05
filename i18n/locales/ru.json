@@ -23,5 +23,6 @@
 	"download_resume_url": "/static/resume.pdf",
 	"back": "Назад",
   "reading": "Сейчас читаю",
-  "fetched_from_literal": "Вытянуто с"
+  "fetched_from_literal": "Вытянуто с",
+  "languages_waka": "Топ языки за последний год (Вытянуто с "
 }

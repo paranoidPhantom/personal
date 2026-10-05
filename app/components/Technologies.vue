@@ -110,5 +110,9 @@ const devops = computed(
                 <p class="w-2/3 text-right" v-html="$t('technologies.toolingDescription')" />
             </div>
         </div>
+        <div>
+          <h1 class="font-bold text-2xl text-uppercase text-center">{{ $t("languages_waka") }}<NuxtLink target="_blank" to="https://wakatime.com/@paranoidPhantom">wakatime.com</NuxtLink>)</h1>
+          <figure class="grayscale"><embed src="https://wakatime.com/share/@paranoidPhantom/6db90456-dbc6-4617-8233-cf2bc67336b0.svg"></embed></figure>
+        </div>
     </div>
 </template>

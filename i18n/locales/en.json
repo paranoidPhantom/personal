@@ -23,5 +23,6 @@
 	"download_resume_url": "/static/resume-en.pdf",
 	"back": "Back",
   "reading": "Currently reading",
-  "fetched_from_literal": "Fetched from"
+  "fetched_from_literal": "Fetched from",
+  "languages_waka": "Languages over Last Year (Powered by "
 }
