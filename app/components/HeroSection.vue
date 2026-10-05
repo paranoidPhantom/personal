@@ -21,8 +21,10 @@ onMounted(() => {
     }, 600);
 });
 const client = ref(false);
+const portraitDuration = ref(5);
 onMounted(() => {
     client.value = true;
+    setTimeout(() => portraitDuration.value = 1, portraitDuration.value * 1000 / 2)
 });
 
 const VACATION = true;
@@ -43,7 +45,7 @@ const VACATION = true;
                           animationSlowdown
                         : 100
                 "
-                :duration="1"
+                :duration="portraitDuration"
                 :svg="PortraitSvg"
                 :path-length="450"
                 style="aspect-ratio: 1.1526479751"
