@@ -35,6 +35,22 @@ export default defineNuxtConfig({
             "/ingest/**": { proxy: "https://us.i.posthog.com/**" },
         },
     },
+    hooks: {
+        // nuxt-aos puts "aos" in build.transpile, which Nuxt mirrors into
+        // optimizeDeps.exclude — exclude wins over include, so aos (UMD) gets
+        // served raw in dev and breaks hydration. Keep it pre-bundled instead.
+        "vite:extendConfig": (config) => {
+            const targets = [
+                config.optimizeDeps,
+                config.environments?.client?.optimizeDeps,
+            ];
+            for (const target of targets) {
+                if (target?.exclude) {
+                    target.exclude = target.exclude.filter((dep) => dep !== "aos");
+                }
+            }
+        },
+    },
     site: {
         name: "Andrei Hudalla",
         url: "https://hudalla.dev",
