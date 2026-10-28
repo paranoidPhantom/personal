@@ -21,7 +21,20 @@ export default defineNuxtConfig({
         "@nuxt/icon",
         "@nuxtjs/seo",
         "nuxt-aos",
+        "@posthog/nuxt",
     ],
+    posthogConfig: {
+        publicKey: process.env.NUXT_PUBLIC_POSTHOG_KEY,
+        host: "/ingest",
+        clientConfig: {
+            ui_host: "https://us.i.posthog.com",
+        },
+    },
+    nitro: {
+        routeRules: {
+            "/ingest/**": { proxy: "https://us.i.posthog.com/**" },
+        },
+    },
     site: {
         name: "Andrei Hudalla",
         url: "https://hudalla.dev",
