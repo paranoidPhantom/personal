@@ -10,8 +10,10 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{8pt}{3pt}
 
-\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+\geometry{left=1.8cm,right=1.8cm,top=1.0cm,bottom=1.0cm}
 
 \pagestyle{empty}
 
@@ -20,64 +22,59 @@
 \begin{center}
 	{\Huge \textbf{Худалла Андрей}}\\[0.3em]
 	Санкт-Петербург | andrei@hudalla.dev \\
-	\href{https://www.linkedin.com/in/hdla/}{linkedin.com/in/hdla} | github.com/paranoidPhantom
+	\href{https://www.linkedin.com/in/hdla/}{linkedin.com/in/hdla} | github.com/paranoidPhantom\\[0.5em]
+{\itshape Разработчик (TypeScript, Rust) $\cdot$ опыт во фронтенде, тестировании и инфраструктуре $\cdot$ изучаю распределённые системы и низкоуровневое программирование.}
 \end{center}
 
 \section*{Образование}
-\noindent\textbf{Школа №550} \hfill \textit{2022 - 2025}
-
-\vspace{2mm}
-
 \noindent\href{https://itmo.ru}{\textbf{ИТМО}} \hfill \textit{Сентябрь 2025 - н.в.} \\
-\href{https://abit.itmo.ru/program/bachelor/programming}{\textit{Компьютерные технологии (ФИТиП)}} \hfill Направление подготовки - 01.03.02 (ПМИ)
+\href{https://abit.itmo.ru/program/bachelor/programming}{\textit{Компьютерные технологии (ФИТиП)}} \hfill 01.03.02 Прикладная математика и информатика
+
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
+	\item Системный трек: компьютерная архитектура, затем продвинутый курс ОС (хард-трек) — свои системные вызовы в xv6, ассемблер RISC-V, планировщик задач на BPF.
+	\item Курс Rust в ШАД: TCP-прокси, полноценный эмулятор CHIP-8, ORM для SQLite на макросах, сборщик мусора с подсчётом ссылок и поиском циклов.
+	\item Курсы: ООП на Java; курс парадигм программирования — JavaScript, Clojure, Prolog; системное программирование на C — алгоритмы разреженных матриц за O(nnz), конвертер TIFF.
+\end{itemize}
 
 \section*{Опыт работы}
 
 \noindent\href{https://tbank.ru}{\textbf{Т-Банк}} \hfill \textit{Февраль - Июнь 2026} \\
-\textit{Стажёр фронтенд-разработчик} \textbullet\ \textit{Vue.js, React}
+\textit{Стажёр фронтенд-разработчик} \textbullet\ \textit{TypeScript, Vue.js, React, Playwright, CI/CD}
 
-\begin{center}
-	\makebox[\linewidth][c]{\textcolor{gray}{\rule{0.45\linewidth}{0.4pt}\hspace{0.8em}\small отпуск\hspace{0.8em}\rule{0.45\linewidth}{0.4pt}}}
-\end{center}
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
+	\item Сократил цикл тестов UI-библиотеки с $\sim$8 часов до нескольких минут: перевёл зависимости с публичного зеркала на внутренний npm-реестр.
+	\item Совмещал стажировку на 25 ч/неделю с самой тяжёлой программой ИТМО.
+	\item Заменил ручную публикацию npm-пакетов на CI-релизы при мерже в master — убрал источник человеческих ошибок.
+	\item Написал 1000+ e2e- и скриншотных тестов (Playwright) для UI-фреймворка rowi.tech — регрессии ловятся до продакшена.
+	\item Провёл воркшоп по агентным AI-инструментам для 50+ инженеров (3 сценария); по итогам — фоллоу-апы, включая продакт-лида.
+\end{itemize}
 
 \section*{Достижения}
-\begin{itemize}[leftmargin=*]
-	\item Финалист + 7 место \href{https://vk.com/wall-41208167_2648}{\textbf{VK Cup}} (трек JS), 2023
-	\item Призёр Олимпиады \href{https://prodcontest.com/eng}{\textbf{PROD}} (фронтенд разработка), 2024
-	\item 1 место в хакатоне \href{https://picthack.itmo.ru/}{\textbf{Стартап за 10 часов ПИиКТ \& Тинькофф}}, 2024
-	\item 2 место в хакатоне \href{https://web.archive.org/web/20250410000545/https://vkma-hack.ru/}{\textbf{VK Mini Apps × ITMO Hack}}, 2024
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
+	\item Финалист, 7 место из 950+ участников \href{https://vk.com/wall-41208167_2648}{\textbf{VK Cup}} (трек JS), 2023
+	\item Призёр Олимпиады \href{https://prodcontest.com/eng}{\textbf{PROD}} (фронтенд-разработка), 2024 и 2025
 	\item 2 место в хакатоне \href{https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/}{\textbf{24 часа в Тинькофф}}, 2024
-	\item 2 место в хакатоне \href{https://vk.com/video_ext.php?oid=-189043960&id=456239120&hd=2}{\textbf{Naimix code}}, 2024
-	\item 1 место в хакатоне \href{https://xn--2024-94d5ep.xn--p1ai/hackathon}{\textbf{Форума инновационных центров (ФИЦ)}}, 2024
-	\item Призёр Олимпиады \href{https://prodcontest.com/eng}{\textbf{PROD}} (фронтенд разработка), 2025
 \end{itemize}
 
 \section*{Проекты}
 
 
-\noindent\href{https://github.com/paranoidPhantom/tgauth}{\textbf{Telegram Auth}} \textit{TypeScript/Nuxt.js} \hfill Июнь 2024
-\begin{itemize}[leftmargin=*]
-	\item Библиотека авторизации через Telegram для Nuxt (первый опыт в OSS — 10 $\geq$ ⭐)
-\end{itemize}
-
-\vspace{5mm}
-
 \noindent\href{https://github.com/paranoidPhantom/eclipse}{\textbf{Telegram Bot Client}} \textit{Rust, Vue/Nuxt.js, PostgreSQL, Traefik, Protobuf} \hfill Июнь - Август 2025
-\begin{itemize}[leftmargin=*]
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
 	\item Веб-клиент для взаимодействия с Telegram от лица бота; реализован двусторонний обмен сообщениями (в том числе с медиа).
-	\item Клиент-серверное взаимодействие построено на Protobuf + WebSocket\\
-	      (это был учебный проект).
+	\item Клиент-серверное взаимодействие — Protobuf + WebSocket (учебный проект).
 \end{itemize}
+
 
 \section*{Скилы}
 
-\noindent\textbf{Языки}: TypeScript, Rust, Английский (C2)
+\noindent\textbf{Языки}: TypeScript, Rust $\cdot$ английский C2
 
-\noindent\textbf{Фреймворки}: Vue, React, Tailwind
+\noindent\textbf{Фронтенд}: React, Vue, Nuxt, Tailwind
 
-\noindent\textbf{Инструменты}: Git, Docker, Linux, Github Actions, Neovim
+\noindent\textbf{Тесты и CI}: Playwright (e2e, визуальная регрессия), GitHub Actions, GitLab CI, npm-тулинг
 
-\vspace{2mm}
-\noindent\textbf{Базовый опыт с}: C/C++, Java, Clojure
+\noindent\textbf{Инфраструктура}: Docker, Linux, Traefik, nginx, Nix
+
 
 \end{document}

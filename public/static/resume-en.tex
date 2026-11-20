@@ -10,8 +10,10 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{8pt}{3pt}
 
-\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+\geometry{left=1.8cm,right=1.8cm,top=1.0cm,bottom=1.0cm}
 
 \pagestyle{empty}
 
@@ -19,63 +21,59 @@
 
 \begin{center}
 	{\Huge \textbf{Andrei Hudalla}}\\[0.3em]
-  Remote (UTC + 3) | andrei@hudalla.dev \\
-	\href{https://www.linkedin.com/in/hdla/}{linkedin.com/in/hdla} | github.com/paranoidPhantom
+  andrei@hudalla.dev \\
+	\href{https://www.linkedin.com/in/hdla/}{linkedin.com/in/hdla} | github.com/paranoidPhantom\\[0.5em]
+{\itshape Software engineer (TypeScript, Rust) $\cdot$ experienced in frontend, testing and infrastructure $\cdot$ exploring distributed systems and low-level programming.}
 \end{center}
 
 \section*{Education}
-\noindent\textbf{Generic School\textless T\textgreater} \hfill \textit{2022 - 2025}
-
-\vspace{2mm}
-
 \noindent\href{https://en.itmo.ru/}{\textbf{ITMO University}} \hfill \textit{September 2025 - Present} \\
 \href{https://abit.itmo.ru/en/program/bachelor/programming}{\textit{Computer Technologies}} \hfill Applied Mathematics and Computer Science
+
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
+	\item Systems track: computer architecture, then an advanced OS course (hard track) — custom syscalls for xv6, RISC-V assembly, a BPF task scheduler.
+	\item Rust course from the Yandex School of Data Analysis: TCP proxy, full-featured CHIP-8 emulator, macro-based SQLite ORM, a reference-counting garbage collector with cycle detection.
+	\item Coursework: OOP in Java; a programming paradigms course covering JavaScript, Clojure and Prolog; systems programming in C — sparse matrix algorithms at O(nnz), a TIFF converter.
+\end{itemize}
 
 \section*{Work Experience}
 
 \noindent\href{https://www.linkedin.com/company/tinkoff/}{\textbf{T-Bank (formerly Tinkoff)}} \hfill \textit{February - June 2026} \\
-\textit{Frontend Developer Intern} \textbullet\ \textit{Vue.js, React}
+\textit{Frontend Developer Intern} \textbullet\ \textit{TypeScript, Vue.js, React, Playwright, CI/CD}
 
-\begin{center}
-	\makebox[\linewidth][c]{\textcolor{gray}{\rule{0.45\linewidth}{0.4pt}\hspace{0.8em}\small vacation\hspace{0.8em}\rule{0.45\linewidth}{0.4pt}}}
-\end{center}
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
+	\item Cut the UI library's test feedback loop from $\sim$8 hours to a few minutes by moving dependencies from a public mirror to an internal npm registry.
+	\item Held a 25 h/week internship while enrolled in ITMO's hardest program.
+	\item Replaced manual npm publishing from developer machines with CI-driven releases on merge to master, removing a recurring source of human error.
+	\item Built 1000+ end-to-end and screenshot tests (Playwright) for the rowi.tech UI framework, run on every push, catching visual regressions before production.
+	\item Led an agentic-AI workshop for 50+ engineers, demoing three workflows; led to follow-ups, including one from a product lead.
+\end{itemize}
 
 \section*{Achievements}
-\begin{itemize}[leftmargin=*]
-	\item Finalist + 7th place at \href{https://vk.com/wall-41208167_2648}{\textbf{VK Cup}} (JS track), 2023
-	\item Prize winner of \href{https://prodcontest.com/eng}{\textbf{PROD Olympiad}} (frontend development), 2024
-	\item 1st place at \href{https://picthack.itmo.ru/}{\textbf{Startup in 10 Hours PIiKT \& Tinkoff Hackathon}}, 2024
-	\item 2nd place at \href{https://web.archive.org/web/20250410000545/https://vkma-hack.ru/}{\textbf{VK Mini Apps × ITMO Hackathon}}, 2024
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
+	\item Finalist, 7th of 950+ contestants at \href{https://vk.com/wall-41208167_2648}{\textbf{VK Cup}} (JS track), 2023
+	\item Prize winner of \href{https://prodcontest.com/eng}{\textbf{PROD Olympiad}} (frontend development), 2024 \& 2025
 	\item 2nd place at \href{https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/}{\textbf{24 Hours at Tinkoff Hackathon}}, 2024
-	\item 2nd place at \href{https://vk.com/video_ext.php?oid=-189043960&id=456239120&hd=2}{\textbf{Naimix Code Hackathon}}, 2024
-	\item 1st place at \href{https://xn--2024-94d5ep.xn--p1ai/hackathon}{\textbf{Forum of Innovation Centers (FIC) Hackathon}}, 2024
-	\item Prize winner of \href{https://prodcontest.com/eng}{\textbf{PROD Olympiad}} (frontend development), 2025
 \end{itemize}
 
 \section*{Projects}
 
-\noindent\href{https://github.com/paranoidPhantom/tgauth}{\textbf{Telegram Auth}} \textit{TypeScript/Nuxt.js} \hfill June 2024
-\begin{itemize}[leftmargin=*]
-	\item Telegram authentication library for Nuxt (first shot at OSS — 10 $\geq$ ⭐).
-\end{itemize}
-
-\vspace{5mm}
-
 \noindent\href{https://github.com/paranoidPhantom/eclipse}{\textbf{Telegram Bot Client}} \textit{Rust, Vue/Nuxt.js, PostgreSQL, Traefik, Protobuf} \hfill June - August 2025
-\begin{itemize}[leftmargin=*]
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt,parsep=0pt]
 	\item Web client for interacting with Telegram on behalf of a bot; implemented two-way messaging (including media).
 	\item Client-server communication is built on Protobuf + WebSocket (this was a learning experience).
 \end{itemize}
 
+
 \section*{Skills}
 
-\noindent\textbf{Languages}: TypeScript, Rust
+\noindent\textbf{Languages}: TypeScript, Rust $\cdot$ English C2
 
-\noindent\textbf{Frameworks}: Vue, React, Tailwind
+\noindent\textbf{Frontend}: React, Vue, Nuxt, Tailwind
 
-\noindent\textbf{Tools}: Git, Docker, Linux, Github Actions, Neovim
+\noindent\textbf{Testing \& CI}: Playwright (e2e, visual regression), GitHub Actions, GitLab CI, npm tooling
 
-\vspace{1mm}
-\noindent\textbf{Familiarity}: C/C++, Java, Clojure
+\noindent\textbf{Infrastructure}: Docker, Linux, Traefik, nginx, Nix
+
 
 \end{document}
