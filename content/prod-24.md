@@ -1,59 +1,49 @@
 ---
-title: Silver medalist @ PROD 2023'24
-description: Track - Frontend
+title: Silver medal at PROD 2023–24
+description: Frontend projects spanning a résumé builder, a habit tracker, and a business feedback tool.
 date: April 4, 2024
 image: /_images/prod-24/cover.png
 index: 1
 ---
 
-## The stages
+## Qualifying rounds
 
-### Stage 1 - [General CS quiz](https://vk.com/wall-223720604_61)
+### General computer science quiz
 
-This stage was a general CS quiz:
+The [first round](https://vk.com/wall-223720604_61) tested web fundamentals and general computer science knowledge. A total of 3,879 contestants had two hours to answer 30 questions.
 
-- We were given 2 hours to solve 30 questions.
-- 3879 contestants attempted the quiz.
-- It tested our knowledge on web fundamentals, and general CS knowledge.
+### Frontend assignment
 
-### Stage 2 - Track based task
+The next round was split into frontend, backend, and mobile tracks. I chose frontend: the [assignment](https://github.com/Central-University-IT/test-frontend) was to build a résumé builder in plain JavaScript and CSS, following a prescribed design and passing a supplied set of Playwright tests.
 
-The competition was divided into frontend, backend, and mobile development.
+I scored 98.5 out of 100, placing in the top six. The qualifying score was 71.
 
-I picked frontend. The task can be viewed [here](https://github.com/Central-University-IT/test-frontend).
+## Finals
 
-In short, we were tasked to build a resume builder in pure JS/CSS following strict design guidelines and prewritten playwright tests.
+### Individual project
 
-I got a 98.5/100 score with a 71/100 passing score *making me top 6* in this stage of the competition.
+For the [individual assignment](https://centraluniversity.notion.site/Frontend-71498a423396498ea874cd9cd7c48bd0), I built a habit tracker with gamification and social features.
 
-### Stage 3.1 - Individual project
+I connected it to [Supabase](https://supabase.com/) to support friend requests, a shared library of popular habits, and profile pages showing users' progress.
 
-I was given the task to build a habit tracker. The task can be viewed [here](https://centraluniversity.notion.site/Frontend-71498a423396498ea874cd9cd7c48bd0).
+[View the project on GitHub](https://github.com/Central-University-IT-prod/public-frontend-paranoidPhantom).
 
-In short, it had to implement gamification, add social mechanics. I was one of the few that hooked this up to a backend ([Supabase](https://supabase.com/)).
+### Team hackathon
 
-This allowed me to have actual friend requests, an actual library of popular habits, and actual profile pages with results.
+![Venue for the PROD finals](/_images/prod-24/location.png)
 
-You can check out the final result [here](https://github.com/Central-University-IT-prod/public-frontend-paranoidPhantom).
+The team round was a four-day, in-person hackathon. We chose a brief focused on helping businesses collect and use customer feedback.
 
-### Stage 3.2 - Team hackathon
+Our prototype included a dashboard for managing questions and analyzing responses. We also integrated YandexGPT to review questions and feedback and suggest ways to improve business metrics.
 
-![Location image](/_images/prod-24/location.png)
+At the end of the four days, we presented our work to 30 industry judges.
 
-This was the only part of the competition that was hosted at a physical location. It was a 4 day hackathon, with multiple cases that could be picked.
+![Presenting our feedback tool to the judges](/_images/prod-24/presentation.png)
 
-My team picked a case about optimizing feedback collection for businesses.
+## The result
 
-We developed a prototype: it had a dashboard for businesses to manage questions, and analyze feedback. We even integrated it with a LLM called YandexGPT that would analyze questions and feedback for those questions and suggest how to improve metrics.
+The final ranking combined scores from the individual project and team hackathon. I received a silver medal.
 
-We had to present the result of our 4 days of work to 30 judges from the industry.
+The closing ceremony took place at the HSE Cultural Center.
 
-![Presentation image](/_images/prod-24/presentation.png)
-
-## The results
-
-We were judged by a cobination of scores for the individual project, and team hackathon.
-
-The closing ceremondy was held at the Culture Center of HSE.
-
-![Ceremony image](/_images/prod-24/ceremony.png)
+![Closing ceremony at the HSE Cultural Center](/_images/prod-24/ceremony.png)

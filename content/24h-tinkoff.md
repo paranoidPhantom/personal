@@ -1,31 +1,31 @@
 ---
-title: 2 place @ 24 hours in Tinkoff
-description: Case - Partner cashback predictions
+title: 2nd place at 24 hours in Tinkoff
+description: A machine learning model and dashboard for predicting partner cashback payouts
 index: 5
 date: October 27, 2024
 image: /_images/24h-tinkoff/cover.png
 ---
 
-## Project Overview
+## Project overview
 
-During the hackathon, our team developed a machine learning model to predict cashback payouts based on many parameters.
+Our team developed a machine learning model to predict cashback payouts from a range of parameters during the hackathon.
 
-Our solution aimed to help Tinkoff make companies more comfortable in the partner program by setting predictable payout amounts.
+The aim was to help companies in Tinkoff's partner program plan around expected payouts.
 
-## Our solution
+## Frontend development
 
-I was, as usual, responsible for everything frontend. Staying up all night, I implemented the dashboard for making requests to the model.
-I used Nuxt 3 + Nuxt UI to make a nice interface quickly.
+I handled frontend development, building a dashboard for sending requests to the model.
+I used Nuxt 3 and Nuxt UI to deliver the interface within the hackathon's time constraints.
 
-You can get a good feeling for our work using the presentation below.
+The presentation below outlines our approach.
 
 ::presentation{url="/static/24h-tinkoff/presentation.pdf"}
 ::
 
 ## Results
 
-After a full night of no sleep, we were able to achieve a product, which put us in 2nd place.
+The project took 2nd place.
 
 ![Certificate](/_images/24h-tinkoff/cert.png)
 
-[You can check out event's official website here](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/).
+[Official hackathon website](https://education.tbank.ru/activities/tinkoff_projects/hackathon-24h/)

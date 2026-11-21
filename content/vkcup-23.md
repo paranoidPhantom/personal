@@ -1,39 +1,31 @@
 ---
-title: "7th place @ VK Cup 2022'23"
-description: "Track - JS"
+title: "7th place at VK Cup 2022–23"
+description: "An email web app built with Node.js and vanilla JavaScript."
 index: 0
 date: "February 5, 2023"
 image: "/_images/vk-cup-22/cover.png"
 ---
 
-## Competition
+## The competition
 
-The first stage had [965 contestants in the JS track](https://vk.com/wall-41208167_2648). I advanced to the second stage, which included only 256 contestants.
+The JavaScript track began with [965 contestants](https://vk.com/wall-41208167_2648). I advanced through the second round of 256 participants to become one of 16 finalists invited to VK's Moscow office.
 
-After that, I passed to the final round, narrowing down to just 16 people, and was invited to VK's office in Moscow.
+![At VK's Moscow office](/_images/vk-cup-22/photo.png)
 
-![Photo from Moscow Office](/_images/vk-cup-22/photo.png)
+## The task
 
-## The Task
+The assignment was to build a Node.js web server and an email client. The server needed to query a large JSON dataset through an API and serve a fast web app matching a supplied Figma design.
 
-We were tasked with building a web server in pure Node.js that would:
+Later requirements added filters, color themes, and internationalization.
 
-1. Query a large JSON 'database' of emails via API.
-2. Serve a fast web app to display these emails according to a Figma template.
+## My implementation
 
-Later, we were asked to add extra features such as filters, color themes, and internationalization (i18n).
+This was one of my first substantial projects. I was new to Node.js and web servers, and I built the frontend in vanilla JavaScript while learning the backend fundamentals along the way.
 
-## My Implementation
+The theme system supported a range of visual styles:
 
-At the time, I wasn't familiar with any frontend frameworks, so I used vanilla JavaScript. In retrospect, this likely contributed to the app's high performance.
+![Examples of the email client's themes](/_images/vk-cup-22/demo.png)
 
-It was basically my first real project: I had no clue about what NodeJS was, and I had no idea how a web server worked.
-I had to learn everything from scratch, but my hope to pass the round again and again led to success.
+I finished seventh in the JavaScript track.
 
-> Below is a demonstration of the flexibility of the theme system.
-
-![Demo](/_images/vk-cup-22/demo.png)
-
-You can view my full implementation on [GitHub](https://github.com/paranoidPhantom/VK-Cup-2022-JS).
-
-You can view final standings [here](https://vk.ru/@cup-final-results-22-23).
+[View the implementation on GitHub](https://github.com/paranoidPhantom/VK-Cup-2022-JS) or see the [final standings](https://vk.ru/@cup-final-results-22-23).

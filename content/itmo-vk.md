@@ -1,66 +1,46 @@
 ---
-title: 2 place @ VK Mini Apps × ITMO Hack
-description: Interactive quest app for onboarding freshmen and new employees into 'be ITMO' culture
+title: 2nd place at VK Mini Apps × ITMO Hack
+description: A quest-based app introducing new students and employees to ITMO culture.
 date: October 13, 2024
 image: /_images/itmo-vk/cover.png
 index: 4
 ---
 
-## The task
+## The brief
 
-Our goal was to create a VK Mini App using [VK UI](https://vkcom.github.io/VKUI/#/QuickStart).
+We built a VK Mini App to introduce new students and employees to “be ITMO” culture through quests and quizzes.
 
-Since I am not a React guy this was a chance to look into it more vs. the traditional Vue approach.
+The app had to use [VK UI](https://vkcom.github.io/VKUI/#/QuickStart) while incorporating ITMO's visual identity. Our designer documented that work in [a series of posts](https://t.me/zloon41/60).
 
-> Spoiler: I didn't enjoy it.
+I worked on the frontend. Coming from Vue, this was also an opportunity to build with React in a different component ecosystem.
 
-The app was meant to introduce 'be ITMO' culture. This meant we had to combine two design systems.
+## Building the app
 
-This was the designer's problem though, so you can read more in [his chain of posts](https://t.me/zloon41/60).
+I was balancing the hackathon with daily work shifts, so much of the frontend integration came together during the final night, once the backend was ready.
 
-## The prizes
+I started by connecting the API and displaying tasks and store items:
 
-Prize money was divided as follows:
+![Tasks and store items in the app](/_images/itmo-vk/1.jpg){width="300"}
 
-1. 200,000₽ (\~$2,020)
-2. 150,000₽ (\~$1,515)
-3. 100,000₽ (\~$1,010)
+From there, I worked through the remaining features, including user profiles:
 
-## Beyond the theory
+![User profile screen](/_images/itmo-vk/2.jpg){width="300"}
 
-This all sounds great until you take into consideration that I had to work 8 hour shifts every day of the hackathon.
+…and quizzes about “be ITMO” culture:
 
-Because of this I was able to do very little and on the last day I was forced to do something crazy...
+![Quiz about ITMO culture](/_images/itmo-vk/3.jpg){width="300"}
 
-On the last day, I asked for a shorter shift and got a lot done in the morning - 5 PM to 11 PM.
-
-The backend was almost done the morning of that day, and completely done by the end of my shift.
-
-And so, after writing code for 7 hours, and then washing dishes for 6, I grabbed a protein bar, some water and some pesto chicken, and jumped back into VS Code.
-
-- 12:45 - I was able to fetch tasks and store items from the API and display them
-
-![demo](/_images/itmo-vk/1.jpg){width="300"}
-
-You get the idea. Little by little everything got implemented in the most minimal way possible.
-
-- 6:04 - We were finishing the details like user profiles
-
-![demo](/_images/itmo-vk/2.jpg){width="300"}
-
-...and quizzes about 'be ITMO' culture:
-
-![demo](/_images/itmo-vk/3.jpg){width="300"}
+With limited time, the priority was a working version of each core feature.
 
 ## The result
 
-Our presentation is a great demonstration of what we did:
+We placed second among more than 17 teams, earning a prize of 150,000 rubles.
+
+Our presentation walks through the app and its main features:
 
 ::presentation{url="/static/itmo-vk/presentation.pdf"}
 ::
 
-We won 2nd place out of 17+ teams.
-
 ---
 
-[Official website of the hackathon](https://web.archive.org/web/20250410000545/https://vkma-hack.ru/)
+[Hackathon website (archived)](https://web.archive.org/web/20250410000545/https://vkma-hack.ru/)
