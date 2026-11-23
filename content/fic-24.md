@@ -32,4 +32,4 @@ The project took 1st place in the challenge.
 
 ---
 
-[Official hackathon website](https://xn--2024-94d5ep.xn--p1ai/hackathon)
+[Official hackathon website (archived)](https://web.archive.org/web/20250524060248/https://%D1%84%D0%B8%D1%862024.%D1%80%D1%84/hackathon)
